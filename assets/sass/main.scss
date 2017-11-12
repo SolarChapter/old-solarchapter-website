@@ -278,7 +278,6 @@
 		position: relative;
 
 		&:before {
-			background: url('images/overlay.png');
 			content: '';
 			height: 100%;
 			left: 0;
@@ -804,14 +803,14 @@
 
 			header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/* border-bottom: solid 2px;
+				border-top: solid 2px; */
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 
 				h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
+					/*border-bottom: solid 2px;
+					border-top: solid 2px; */
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
