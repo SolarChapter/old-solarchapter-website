@@ -2268,7 +2268,7 @@ body.index #main {
 #footer {
   background: #E8EEF4;
   color: #7c8081;
-  padding: 5em 5em 10em 5em;
+  padding: 5em 5em 5em 5em;
   text-align: center; }
   /* line 900, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #footer .copyright {
@@ -2794,5 +2794,9 @@ body.index #main {
     left: 8px;
     width: 50px;
     height: 34px; } }
+
+/* line 1580, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+.team-member {
+  max-width: 200px; }
 
 /*# sourceMappingURL=main.css.map */
