@@ -356,6 +356,14 @@
 					background: lighten(_palette(youtube, bg), 4);
 				}
 			}
+            &.fa-envelope {
+				background: _palette(email, bg);
+				color: _palette(email, fg);
+
+				&:hover {
+					background: lighten(_palette(email, bg), 4);
+				}
+			}
 		}
 
 		&.featured {

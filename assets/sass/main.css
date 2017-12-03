@@ -1738,76 +1738,83 @@ input[type="email"] {
         background: #829bc9; }
     /* line 342, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .icon.circle.fa-instagram {
-      background: #A200C0;
+      background: #bc55d1;
       color: #fff; }
       /* line 346, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       .icon.circle.fa-instagram:hover {
-        background: #b300d4; }
+        background: #c265d5; }
     /* line 351, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .icon.circle.fa-youtube {
-      background: #F1281F;
+      background: #ff635e;
       color: #fff; }
       /* line 355, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       .icon.circle.fa-youtube:hover {
-        background: #f23a32; }
-  /* line 361, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+        background: #ff7772; }
+    /* line 359, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    .icon.circle.fa-envelope {
+      background: #84d175;
+      color: #fff; }
+      /* line 363, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      .icon.circle.fa-envelope:hover {
+        background: #92d684; }
+  /* line 369, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .icon.featured {
     cursor: default;
     display: block;
     margin: 0 0 1.5em 0;
     opacity: 0.35;
     text-align: center; }
-    /* line 368, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 376, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .icon.featured:before {
       font-size: 5em;
       line-height: 1em; }
-  /* line 374, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 382, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .icon > .label {
     display: none; }
 
 /* List */
-/* line 382, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 390, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 ol.default {
   list-style: decimal;
   padding-left: 1.25em; }
-  /* line 386, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 394, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ol.default li {
     padding-left: 0.25em; }
 
-/* line 393, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 401, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 ul.default {
   list-style: disc;
   padding-left: 1em; }
-  /* line 397, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 405, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.default li {
     padding-left: 0.5em; }
 
-/* line 402, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 410, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 ul.icons {
   cursor: default; }
-  /* line 405, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 413, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.icons li {
     display: inline-block;
     line-height: 1em;
     padding-left: 0.5em; }
-    /* line 410, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 418, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     ul.icons li:first-child {
       padding-left: 0; }
 
-/* line 416, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 424, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 ul.featured-icons {
   cursor: default;
   margin: -0.75em 0 0 0;
   opacity: 0.35;
   overflow: hidden;
   position: relative; }
-  /* line 423, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 431, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.featured-icons li {
     display: block;
     float: left;
     text-align: center;
     width: 50%; }
-    /* line 429, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 437, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     ul.featured-icons li .icon {
       display: inline-block;
       font-size: 6.25em;
@@ -1815,52 +1822,52 @@ ul.featured-icons {
       line-height: 1.25em;
       width: 1em; }
 
-/* line 439, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 447, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 ul.buttons {
   cursor: default; }
-  /* line 442, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 450, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.buttons:last-child {
     margin-bottom: 0; }
-  /* line 446, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 454, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.buttons li {
     display: inline-block;
     padding: 0 0 0 1.5em; }
-    /* line 450, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 458, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     ul.buttons li:first-child {
       padding: 0; }
-  /* line 456, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 464, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.buttons.vertical li {
     display: block;
     padding: 1.5em 0 0 0; }
-    /* line 460, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 468, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     ul.buttons.vertical li:first-child {
       padding: 0; }
 
 /* Table */
-/* line 470, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 478, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 table {
   width: 100%; }
-  /* line 473, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 481, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   table.default {
     width: 100%; }
-    /* line 477, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 485, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     table.default tbody tr {
       border-bottom: solid 1px rgba(124, 128, 129, 0.2); }
-    /* line 482, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 490, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     table.default td {
       padding: 0.5em 1em 0.5em 1em; }
-    /* line 486, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 494, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     table.default th {
       font-weight: 400;
       padding: 0.5em 1em 0.5em 1em;
       text-align: left; }
-    /* line 492, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 500, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     table.default thead {
       background: #7c8081;
       color: #fff; }
 
 /* Button */
-/* line 507, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 515, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -1887,14 +1894,14 @@ input[type="reset"],
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
-  /* line 528, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 536, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"]:hover,
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   .button:hover {
     background: rgba(188, 202, 206, 0.15);
     border-color: inherit; }
-  /* line 533, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 541, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"].special,
   input[type="submit"].special,
   input[type="reset"].special,
@@ -1902,20 +1909,20 @@ input[type="reset"],
     background: #83d3c9;
     border-color: #83d3c9;
     color: #fff !important; }
-    /* line 538, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 546, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     input[type="button"].special:hover,
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     .button.special:hover {
       background: #96dad1 !important;
       border-color: #96dad1 !important; }
-  /* line 544, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 552, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"].fit,
   input[type="submit"].fit,
   input[type="reset"].fit,
   .button.fit {
     width: 100%; }
-  /* line 548, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 556, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"].small,
   input[type="submit"].small,
   input[type="reset"].small,
@@ -1925,14 +1932,14 @@ input[type="reset"],
     padding: 0.5em 0; }
 
 /* Wrapper */
-/* line 557, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 565, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 .wrapper {
   margin-bottom: 5em;
   padding: 5em; }
-  /* line 561, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 569, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.style1 {
     padding: 0; }
-  /* line 565, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 573, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.style2 {
     background-color: #83d3c9;
     background-image: url("images/light-bl.svg"), url("images/light-br.svg");
@@ -1940,23 +1947,23 @@ input[type="reset"],
     background-repeat: no-repeat, no-repeat;
     background-size: 25em, 25em;
     color: #fff; }
-    /* line 574, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 582, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style2 .button:hover {
       background: rgba(255, 255, 255, 0.15) !important; }
-    /* line 578, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 586, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style2 .button.special {
       background: #fff;
       border-color: #fff;
       color: #83d3c9 !important; }
-      /* line 583, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 591, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       .wrapper.style2 .button.special:hover {
         border-color: inherit !important;
         color: #fff !important; }
-  /* line 591, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 599, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.style3 {
     background: #fff;
     color: inherit; }
-  /* line 596, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 604, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.style4 {
     background: #fff;
     color: inherit;
@@ -1976,10 +1983,10 @@ input[type="reset"],
     top: 0; } }
 
 @-ms-keyframes reveal-header {
-  /* line 606, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 614, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   0% {
     top: -5em; }
-  /* line 607, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 615, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   100% {
     top: 0; } }
 
@@ -1989,7 +1996,7 @@ input[type="reset"],
   100% {
     top: 0; } }
 
-/* line 610, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 618, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #header {
   background: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
@@ -2002,28 +2009,28 @@ input[type="reset"],
   top: 0;
   width: 100%;
   z-index: 10000; }
-  /* line 623, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 631, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header h1 {
     font-weight: 900;
     margin: 0; }
-    /* line 627, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 635, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #header h1 span {
       font-weight: 300; }
-  /* line 632, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 640, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header nav {
     letter-spacing: 0.075em;
     position: absolute;
     right: 1.5em;
     text-transform: uppercase;
     top: 0.75em; }
-    /* line 640, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 648, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #header nav ul li {
       display: inline-block;
       margin-left: 1.5em; }
-      /* line 644, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 652, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li > ul {
         display: none; }
-      /* line 648, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 656, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li a {
         border: solid 1px transparent;
         color: inherit;
@@ -2031,7 +2038,7 @@ input[type="reset"],
         line-height: 1em;
         padding: 0.6em 0.75em;
         text-decoration: none; }
-      /* line 657, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 665, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li input[type="button"],
       #header nav ul li input[type="submit"],
       #header nav ul li input[type="reset"],
@@ -2039,7 +2046,7 @@ input[type="reset"],
         font-size: 1em;
         min-width: 0;
         width: auto; }
-      /* line 667, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 675, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li.submenu > a {
         text-decoration: none; }
         /* line 8, /Users/linahsie/solar-chapter/assets/sass/libs/_mixins.scss */
@@ -2050,27 +2057,27 @@ input[type="reset"],
           font-style: normal;
           font-weight: normal;
           text-transform: none !important; }
-        /* line 670, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+        /* line 678, /Users/linahsie/solar-chapter/assets/sass/main.scss */
         #header nav ul li.submenu > a:before {
           content: '\f107';
           margin-right: 0.65em; }
-      /* line 679, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 687, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li.active > a, #header nav ul li:hover > a {
         -moz-transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -ms-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         background: rgba(188, 202, 206, 0.15); }
-      /* line 686, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 694, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header nav ul li.current > a {
         font-weight: 900; }
-  /* line 694, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 702, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header.reveal {
     -moz-animation: reveal-header 0.5s;
     -webkit-animation: reveal-header 0.5s;
     -ms-animation: reveal-header 0.5s;
     animation: reveal-header 0.5s; }
-  /* line 698, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 706, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header.alt {
     -moz-animation: none;
     -webkit-animation: none;
@@ -2081,16 +2088,16 @@ input[type="reset"],
     color: #fff;
     padding: 2em 2.5em;
     position: absolute; }
-    /* line 706, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 714, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #header.alt nav {
       right: 2.5em;
       top: 1.75em; }
-      /* line 714, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 722, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
         border: solid 1px; }
 
 /* Dropotron */
-/* line 726, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 734, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 .dropotron {
   background: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
@@ -2099,12 +2106,12 @@ input[type="reset"],
   padding: 1em 0;
   text-transform: uppercase;
   margin-top: calc(-1em + 1px); }
-  /* line 735, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 743, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .dropotron.level-0 {
     font-size: 0.7em;
     font-weight: 400;
     margin-top: 1.5em; }
-    /* line 740, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 748, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .dropotron.level-0:before {
       border-bottom: solid 0.5em #fff;
       border-left: solid 0.5em transparent;
@@ -2113,10 +2120,10 @@ input[type="reset"],
       left: 0.75em;
       position: absolute;
       top: -0.45em; }
-  /* line 751, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 759, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .dropotron > li {
     border-top: solid 1px rgba(124, 128, 129, 0.2); }
-    /* line 754, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 762, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .dropotron > li > a {
       -moz-transition: none;
       -webkit-transition: none;
@@ -2126,11 +2133,11 @@ input[type="reset"],
       text-decoration: none;
       padding: 0 1em;
       border: 0; }
-    /* line 763, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 771, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .dropotron > li:hover > a {
       background: #83d3c9;
       color: #fff; }
-    /* line 769, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 777, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .dropotron > li:first-child {
       border-top: 0; }
 
@@ -2148,10 +2155,10 @@ input[type="reset"],
     opacity: 1; } }
 
 @-ms-keyframes reveal-banner {
-  /* line 778, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 786, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   0% {
     opacity: 0; }
-  /* line 779, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 787, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   100% {
     opacity: 1; } }
 
@@ -2161,7 +2168,7 @@ input[type="reset"],
   100% {
     opacity: 1; } }
 
-/* line 782, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 790, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
@@ -2173,7 +2180,7 @@ input[type="reset"],
   cursor: default;
   padding: 6em 0;
   text-align: center; }
-  /* line 794, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 802, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #banner .inner {
     -moz-animation: reveal-banner 1s 0.25s ease-in-out;
     -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2189,14 +2196,14 @@ input[type="reset"],
     opacity: 0;
     padding: 3em;
     text-align: center; }
-    /* line 804, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 812, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #banner .inner header {
       display: inline-block;
       /* border-bottom: solid 2px;
 				border-top: solid 2px; */
       margin: 0 0 2em 0;
       padding: 3px 0 3px 0; }
-      /* line 811, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 819, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #banner .inner header h2 {
         /*border-bottom: solid 2px;
 					border-top: solid 2px; */
@@ -2207,48 +2214,48 @@ input[type="reset"],
         padding-left: 0.05em;
         position: relative;
         text-transform: uppercase; }
-    /* line 824, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 832, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #banner .inner p {
       letter-spacing: 0.1em;
       margin: 0;
       text-transform: uppercase; }
-      /* line 829, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 837, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #banner .inner p a {
         color: inherit;
         font-weight: 400;
         text-decoration: none; }
-    /* line 836, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 844, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #banner .inner footer {
       margin: 2em 0 0 0; }
 
 /* Main */
-/* line 844, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 852, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #main {
   background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
   background-position: top left, top right, bottom left, bottom right;
   background-repeat: no-repeat;
   background-size: 25em;
   padding: 7em 0; }
-  /* line 851, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 859, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #main > :last-child {
     margin-bottom: 0; }
-  /* line 856, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 864, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #main .sidebar section {
     border-top: solid 1px rgba(124, 128, 129, 0.2);
     margin: 3em 0 0 0;
     padding: 3em 0 0 0; }
-    /* line 861, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 869, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #main .sidebar section:first-child {
       border-top: 0;
       padding-top: 0;
       margin-top: 0; }
 
-/* line 870, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 878, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 body.index #main {
   padding-top: 5em; }
 
 /* CTA */
-/* line 876, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 884, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #cta {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
@@ -2259,31 +2266,31 @@ body.index #main {
   color: #fff;
   padding: 5em;
   text-align: center; }
-  /* line 887, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 895, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #cta header {
     margin-bottom: 2em; }
 
 /* Footer */
-/* line 894, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 902, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #footer {
   background: #E8EEF4;
   color: #7c8081;
   padding: 5em 5em 5em 5em;
   text-align: center; }
-  /* line 900, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 908, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #footer .copyright {
     font-size: 0.8em;
     line-height: 1em; }
-    /* line 904, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 912, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #footer .copyright a {
       color: inherit; }
-    /* line 908, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 916, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #footer .copyright li {
       display: inline-block;
       margin-left: 1em;
       padding-left: 1em;
       border-left: dotted 1px; }
-      /* line 914, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 922, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #footer .copyright li:first-child {
         margin: 0;
         padding: 0;
@@ -2292,11 +2299,11 @@ body.index #main {
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  /* line 929, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 937, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 14pt; }
   /* Section/Article */
-  /* line 936, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 944, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.special {
     padding-top: 5.5em;
     margin-bottom: 4em; } }
@@ -2304,132 +2311,132 @@ body.index #main {
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  /* line 950, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 958, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 13pt;
     letter-spacing: 0.025em;
     line-height: 1.65em; }
-  /* line 956, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 964, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em; }
   /* Section/Article */
-  /* line 963, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 971, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.major {
     padding-bottom: 1.5em; }
-  /* line 969, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 977, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   footer.major {
     padding-top: 2em; }
   /* Wrapper */
-  /* line 976, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 984, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 4em;
     padding: 4em 3em; }
-    /* line 980, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 988, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style4 {
       padding: 3em; }
   /* Header */
-  /* line 990, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 998, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header nav ul li {
     margin-left: 1em; }
   /* Banner */
-  /* line 999, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1007, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #banner {
     background-attachment: scroll; }
   /* CTA */
-  /* line 1005, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1013, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #cta {
     padding: 4em;
     background-attachment: scroll; }
   /* Footer */
-  /* line 1012, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1020, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #footer {
     padding: 4em; } }
 
 /* Narrow */
 @media screen and (max-width: 980px) {
   /* Basic */
-  /* line 1026, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1034, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 13pt;
     letter-spacing: 0.025em;
     line-height: 1.5em; }
   /* Section/Article */
-  /* line 1035, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1043, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header br {
     display: none; }
-  /* line 1039, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1047, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.major {
     padding-bottom: 1em; }
-  /* line 1043, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1051, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.special {
     padding-left: 2.5em;
     padding-right: 2.5em; }
-  /* line 1050, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1058, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   footer.major {
     padding-top: 1.5em; }
   /* Wrapper */
-  /* line 1057, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1065, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 3em;
     padding: 3em 2.5em; }
-    /* line 1062, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1070, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.special br {
       display: none; }
-    /* line 1067, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1075, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style1 {
       padding: 0 2.5em; }
-    /* line 1071, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1079, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style2 {
       background-size: 15em; }
-    /* line 1075, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1083, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style4 {
       padding: 2.5em; }
   /* Banner */
-  /* line 1082, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1090, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #banner {
     background-size: 15em, 15em, auto, cover; }
   /* Main */
-  /* line 1088, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1096, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #main {
     background-size: 15em; }
   /* CTA */
-  /* line 1094, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1102, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #cta {
     background-size: 15em, 15em, auto, cover;
     padding: 3em; } }
 
 /* Narrower */
-/* line 1103, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 1111, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 #navPanel, #navButton {
   display: none; }
 
 @media screen and (max-width: 840px) {
   /* Basic */
-  /* line 1111, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1119, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   html, body {
     overflow-x: hidden; }
-  /* line 1116, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1124, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.major {
     padding-bottom: 0.25em; }
-  /* line 1120, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1128, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header.special {
     margin-bottom: 4em;
     padding-top: 5em; }
-    /* line 1124, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1132, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     header.special:before, header.special:after {
       width: 40%; }
-    /* line 1129, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1137, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     header.special h2 + p {
       padding-top: 1.25em; }
   /* Section/Article */
-  /* line 1137, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1145, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   section {
     margin: 1em 0 1em 0; }
-    /* line 1140, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1148, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     section:first-child {
       margin-top: 0; }
   /* Button */
-  /* line 1151, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1159, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"].small,
   input[type="submit"].small,
   input[type="reset"].small,
@@ -2438,62 +2445,62 @@ body.index #main {
     min-width: 18em;
     padding: 0.75em 0; }
   /* List */
-  /* line 1161, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1169, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.featured-icons {
     margin: 0; }
-    /* line 1164, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1172, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     ul.featured-icons li {
       display: inline-block;
       float: none;
       width: auto; }
-      /* line 1169, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1177, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       ul.featured-icons li .icon {
         font-size: 4em;
         width: 1.25em; }
-  /* line 1177, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1185, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.buttons li {
     display: block;
     padding: 1em 0 0 0; }
   /* Header */
-  /* line 1186, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1194, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #header {
     display: none; }
   /* Banner */
-  /* line 1192, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1200, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #banner {
     margin: 0; }
   /* Wrapper */
-  /* line 1199, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1207, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.special-alt {
     text-align: center; }
-  /* line 1203, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1211, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper.style4 {
     padding-bottom: 3em; }
   /* Main */
-  /* line 1210, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1218, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #main {
     padding: 5em 0; }
-    /* line 1213, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1221, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #main .sidebar {
       border-top: solid 1px rgba(124, 128, 129, 0.1);
       padding-top: 3em; }
-      /* line 1217, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1225, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #main .sidebar section {
         border-top: 0;
         padding-top: 0; }
-  /* line 1224, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1232, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.index #main {
     padding-top: 4.5em; }
   /* CTA */
-  /* line 1230, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1238, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #cta {
     margin: 0; }
   /* Footer */
-  /* line 1236, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1244, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #footer {
     padding: 4em 1.5em; }
   /* Off-Canvas Navigation */
-  /* line 1242, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1250, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #page-wrapper {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2504,7 +2511,7 @@ body.index #main {
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     padding-bottom: 1px; }
-  /* line 1248, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1256, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #navButton {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2521,7 +2528,7 @@ body.index #main {
     top: 0;
     width: 100%;
     z-index: 10001; }
-    /* line 1259, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1267, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navButton .toggle {
       text-decoration: none;
       height: 60px;
@@ -2540,7 +2547,7 @@ body.index #main {
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
-      /* line 1270, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1278, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #navButton .toggle:before {
         color: #fff;
         content: '\f0c9';
@@ -2553,7 +2560,7 @@ body.index #main {
         top: 11px;
         width: 60px;
         z-index: 1; }
-      /* line 1284, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1292, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #navButton .toggle:after {
         background: rgba(163, 169, 170, 0.75);
         border-radius: 2px;
@@ -2563,7 +2570,7 @@ body.index #main {
         position: absolute;
         top: 10px;
         width: 60px; }
-  /* line 1297, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1305, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #navPanel {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2591,7 +2598,7 @@ body.index #main {
     letter-spacing: 0.075em;
     text-transform: uppercase;
     padding: 0.25em 0.75em 1em 0.75em; }
-    /* line 1316, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1324, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .link {
       border: 0;
       border-top: solid 1px rgba(255, 255, 255, 0.05);
@@ -2601,45 +2608,45 @@ body.index #main {
       line-height: 3em;
       opacity: 0.75;
       text-decoration: none; }
-      /* line 1326, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1334, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #navPanel .link.depth-0 {
         font-weight: 900; }
-      /* line 1330, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1338, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #navPanel .link:first-child {
         border-top: 0; }
-    /* line 1335, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1343, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .indent-1 {
       display: inline-block;
       width: 1em; }
-    /* line 1336, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1344, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .indent-2 {
       display: inline-block;
       width: 2em; }
-    /* line 1337, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1345, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .indent-3 {
       display: inline-block;
       width: 3em; }
-    /* line 1338, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1346, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .indent-4 {
       display: inline-block;
       width: 4em; }
-    /* line 1339, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1347, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #navPanel .indent-5 {
       display: inline-block;
       width: 5em; }
-  /* line 1344, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1352, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.navPanel-visible #page-wrapper {
     -moz-transform: translateX(275px);
     -webkit-transform: translateX(275px);
     -ms-transform: translateX(275px);
     transform: translateX(275px); }
-  /* line 1348, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1356, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.navPanel-visible #navButton {
     -moz-transform: translateX(275px);
     -webkit-transform: translateX(275px);
     -ms-transform: translateX(275px);
     transform: translateX(275px); }
-  /* line 1352, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1360, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.navPanel-visible #navPanel {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -2649,153 +2656,153 @@ body.index #main {
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
-  /* line 1368, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1376, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body {
     min-width: 320px; }
-  /* line 1372, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1380, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   h2 {
     font-size: 1.25em;
     letter-spacing: 0.1em; }
-  /* line 1377, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1385, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   h3 {
     font-size: 1em;
     letter-spacing: 0.025em; }
-  /* line 1382, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1390, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   p {
     text-align: justify; }
   /* Section/Article */
-  /* line 1388, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1396, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   header {
     text-align: center; }
-    /* line 1391, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1399, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     header.major {
       padding-bottom: 0; }
-    /* line 1395, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1403, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     header.special {
       margin-bottom: 3em;
       padding-left: 1.5em;
       padding-right: 1.5em; }
-      /* line 1400, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1408, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       header.special:before, header.special:after {
         width: 38%; }
-      /* line 1405, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1413, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       header.special .icon {
         font-size: 0.75em;
         top: 1.5em; }
-    /* line 1411, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1419, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     header p {
       text-align: center; }
-  /* line 1417, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1425, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   footer.major {
     padding-top: 0; }
   /* Icon */
-  /* line 1425, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1433, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .icon.circle {
     font-size: 1em; }
   /* Button */
-  /* line 1432, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1440, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
   .button {
     max-width: 20em;
     width: 100%; }
-    /* line 1439, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1447, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     input[type="button"].fit,
     input[type="submit"].fit,
     input[type="reset"].fit,
     .button.fit {
       width: auto; }
   /* List */
-  /* line 1448, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1456, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.icons li {
     padding-left: 0.25em; }
-  /* line 1455, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1463, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.featured-icons li .icon {
     width: 1.1em; }
-  /* line 1461, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1469, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   ul.buttons {
     text-align: center; }
   /* Wrapper */
-  /* line 1468, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1476, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 2.5em;
     padding: 2.25em 1.5em; }
-    /* line 1473, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1481, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.special br {
       display: none; }
-    /* line 1478, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1486, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style1 {
       padding: 0 1.5em; }
-    /* line 1482, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1490, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style2 {
       background-size: 10em;
       padding: 2.25em 1.5em; }
-    /* line 1487, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1495, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     .wrapper.style4 {
       background-size: 10em;
       padding: 1.5em 1.5em 3em 1.5em; }
   /* Banner */
-  /* line 1495, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1503, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #banner {
     background-size: 10em, 10em, auto, cover;
     padding: 6em 0; }
-    /* line 1499, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1507, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #banner .inner {
       background: none;
       display: block;
       padding: 0 1.5em; }
-      /* line 1505, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1513, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #banner .inner header h2 {
         font-size: 1.5em; }
-      /* line 1510, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1518, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #banner .inner p {
         text-align: center; }
-      /* line 1514, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+      /* line 1522, /Users/linahsie/solar-chapter/assets/sass/main.scss */
       #banner .inner br {
         display: none; }
   /* Main */
-  /* line 1522, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1530, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #main {
     background-size: 10em;
     padding: 3.5em 0 2.5em 0; }
-  /* line 1527, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1535, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.index #main {
     padding: 2.5em 0 0 0; }
-  /* line 1531, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1539, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   body.contact #main {
     padding-bottom: 0; }
   /* CTA */
-  /* line 1537, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1545, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #cta {
     background-size: 10em, 10em, auto, cover;
     padding: 3em 1.5em; }
   /* Footer */
-  /* line 1544, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1552, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #footer {
     padding: 3em 1.5em; }
-    /* line 1548, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+    /* line 1556, /Users/linahsie/solar-chapter/assets/sass/main.scss */
     #footer .copyright li {
       display: block;
       margin: 1em 0 0 0;
       padding: 0;
       border: 0; }
   /* Off-Canvas Navigation */
-  /* line 1561, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1569, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #navButton .toggle:before {
     top: 8px;
     left: 8px;
     width: 50px;
     height: 34px;
     line-height: 34px; }
-  /* line 1569, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  /* line 1577, /Users/linahsie/solar-chapter/assets/sass/main.scss */
   #navButton .toggle:after {
     top: 8px;
     left: 8px;
     width: 50px;
     height: 34px; } }
 
-/* line 1580, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+/* line 1588, /Users/linahsie/solar-chapter/assets/sass/main.scss */
 .team-member {
   max-width: 200px; }
 
