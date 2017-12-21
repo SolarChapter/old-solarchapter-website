@@ -1,0 +1,96 @@
+{
+    "team": [
+        {
+            "position": "President",
+            "firstname": "Mustika",
+            "lastname": "Wijaya",
+            "email": "",
+            "major": "Electrical Engineering"
+        },
+        {
+            "position": "Head of Engineering Team",
+            "firstname": "Ivan",
+            "lastname": "Fransiga",
+            "email": "",
+            "major": "Mechanical Engineering"
+        },
+        {
+            "position": "Vice of Engineering Team",
+            "firstname": "Mohammad S.",
+            "lastname": "Adiprayogo",
+            "email": "",
+            "major": "Electrical Engineering"
+        },
+        {
+            "position": "Vice of Engineering Team",
+            "firstname": "Johan",
+            "lastname": "Kustandi",
+            "email": "",
+            "major": "Civil Engineering"
+        },
+        {
+            "position": "Treasurer",
+            "firstname": "Ignasius Arie",
+            "lastname": "P.",
+            "email": "",
+            "major": "Food Science"
+        },
+        {
+            "position": "Public Relations",
+            "firstname": "Jeffrey",
+            "lastname": "Ryan",
+            "email": "",
+            "major": "Food Science"
+        },
+        {
+            "position": "Head of Media & Technology",
+            "firstname": "Ignatius A.",
+            "lastname": "Budiyanto",
+            "email": "",
+            "major": "Computer Engineering"
+        },
+        {
+            "position": "Vice of Media & Technology",
+            "firstname": "Lina",
+            "lastname": "Sie",
+            "email": "",
+            "major": "Computer Science"
+        },
+        {
+            "position": "Project Coordinator",
+            "firstname": "Edwint",
+            "lastname": "Widjaya",
+            "email": "",
+            "major": "Civil Engineering & Management Strategy"
+        },
+        {
+            "position": "Fundraising Team",
+            "firstname": "Ghianina",
+            "lastname": "Armand",
+            "email": "",
+            "major": "Psychology & Child Development"
+        },
+        {
+            "position": "Fundraising Team",
+            "firstname": "Louisa",
+            "lastname": "Katherine",
+            "email": "",
+            "major": ""
+        },
+        {
+            "position": "Fundraising Team",
+            "firstname": "Peter",
+            "lastname": "Siborutorop",
+            "email": "",
+            "major": ""
+        },
+        {
+            "position": "Fundraising Team",
+            "firstname": "Helena",
+            "lastname": "Faustine",
+            "email": "",
+            "major": ""
+        }
+        
+    ]
+}
