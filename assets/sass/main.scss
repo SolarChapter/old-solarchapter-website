@@ -225,15 +225,18 @@
 	textarea {
 		@include vendor('transition', ('background-color 0.2s ease-in-out', 'border-color 0.2s ease-in-out'));
 		@include vendor('appearance', 'none');
-		background: none;
+		// background: none;
 		border: solid 1px _palette(border);
-		color: inherit;
+		// color: inherit;
 		display: block;
 		padding: 0.75em;
 		text-decoration: none;
-		width: 100%;
+		width: 80%;
 		outline: 0;
-
+        margin: 0 auto;
+        background-color: white;
+        color: black;
+        
 		&:focus {
 			border-color: _palette(one, bg);
 		}
@@ -278,7 +281,6 @@
 		position: relative;
 
 		&:before {
-			background: url('images/overlay.png');
 			content: '';
 			height: 100%;
 			left: 0;
@@ -355,6 +357,14 @@
 
 				&:hover {
 					background: lighten(_palette(youtube, bg), 4);
+				}
+			}
+            &.fa-envelope {
+				background: _palette(email, bg);
+				color: _palette(email, fg);
+
+				&:hover {
+					background: lighten(_palette(email, bg), 4);
 				}
 			}
 		}
@@ -804,14 +814,14 @@
 
 			header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/* border-bottom: solid 2px;
+				border-top: solid 2px; */
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 
 				h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
+					/*border-bottom: solid 2px;
+					border-top: solid 2px; */
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
@@ -895,7 +905,7 @@
 	#footer {
 		background: _palette(footer, bg);
 		color: _palette(footer, fg);
-		padding: 5em 5em 10em 5em;
+		padding: 5em 5em 5em 5em;
 		text-align: center;
 
 		.copyright {
@@ -1577,3 +1587,7 @@
 			}
 
 	}
+
+.team-member {
+    max-width: 200px;
+}
