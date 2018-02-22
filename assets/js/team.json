@@ -8,32 +8,18 @@
             "major": "Electrical Engineering"
         },
         {
-            "position": "Head of Engineering Team",
+            "position": "Vice President",
             "firstname": "Ivan",
             "lastname": "Fransiga",
             "email": "",
             "major": "Mechanical Engineering"
         },
         {
-            "position": "Vice of Engineering Team",
-            "firstname": "Mohammad S.",
-            "lastname": "Adiprayogo",
-            "email": "",
-            "major": "Electrical Engineering"
-        },
-        {
-            "position": "Vice of Engineering Team",
+            "position": "Technical Team",
             "firstname": "Johan",
             "lastname": "Kustandi",
             "email": "",
             "major": "Civil Engineering"
-        },
-        {
-            "position": "Treasurer",
-            "firstname": "Ignasius Arie",
-            "lastname": "P.",
-            "email": "",
-            "major": "Food Science"
         },
         {
             "position": "Public Relations",
@@ -43,14 +29,7 @@
             "major": "Food Science"
         },
         {
-            "position": "Head of Media & Technology",
-            "firstname": "Ignatius A.",
-            "lastname": "Budiyanto",
-            "email": "",
-            "major": "Computer Engineering"
-        },
-        {
-            "position": "Vice of Media & Technology",
+            "position": "Webmaster",
             "firstname": "Lina",
             "lastname": "Sie",
             "email": "",
@@ -72,20 +51,13 @@
         },
         {
             "position": "Fundraising Team",
-            "firstname": "Louisa",
-            "lastname": "Katherine",
-            "email": "",
-            "major": ""
-        },
-        {
-            "position": "Fundraising Team",
             "firstname": "Peter",
             "lastname": "Siborutorop",
             "email": "",
             "major": ""
         },
         {
-            "position": "Fundraising Team",
+            "position": "Media",
             "firstname": "Helena",
             "lastname": "Faustine",
             "email": "",
