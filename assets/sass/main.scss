@@ -1596,8 +1596,17 @@
     width: 100%;
 }
 
+.content {
+    text-align: justify;
+}
+
+.sidebar {
+    text-align: left;
+}
+
 #myCarousel {
     max-width: 900px !important; 
+    margin-bottom: 50px;
 }
 
 #sponsors {
