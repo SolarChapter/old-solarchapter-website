@@ -2811,4 +2811,37 @@ body.index #main {
 .width-100 {
   width: 100%; }
 
+/* line 1599, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+#myCarousel {
+  max-width: 900px !important; }
+
+/* line 1603, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center; }
+
+/* line 1610, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+.sponsor-list {
+  float: left;
+  padding: 20px;
+  flex: 1;
+  width: 33%; }
+  /* line 1617, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  .sponsor-list a {
+    border-bottom: none; }
+  /* line 1621, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+  .sponsor-list .main-sponsor-image {
+    width: 500px !important; }
+
+/* line 1626, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+.sponsor-image {
+  width: 250px; }
+
+/* line 1630, /Users/linahsie/solar-chapter/assets/sass/main.scss */
+.main-sponsor {
+  width: 100% !important;
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
