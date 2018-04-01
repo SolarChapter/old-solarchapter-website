@@ -4,7 +4,9 @@
   "description": "Solar Chapter Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/sass/main.scss assets/sass/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"
   },
-  "homepage": "https://github.com/SolarChapter/solar-chapter#readme"
+  "homepage": "https://github.com/SolarChapter/solar-chapter#readme",
+  "dependencies": {
+    "nodemon": "^1.17.2"
+  }
 }
