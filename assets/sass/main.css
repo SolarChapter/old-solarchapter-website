@@ -1,9 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 /*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Twenty by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1588,12 +1588,12 @@ input[type="reset"],
     #banner .inner header {
       display: inline-block;
       /* border-bottom: solid 2px;
-				border-top: solid 2px; */
+            border-top: solid 2px; */
       margin: 0 0 2em 0;
       padding: 3px 0 3px 0; }
       #banner .inner header h2 {
         /*border-bottom: solid 2px;
-					border-top: solid 2px; */
+                border-top: solid 2px; */
         font-size: 2.5em;
         font-weight: 900;
         letter-spacing: 0.2em;
@@ -2086,8 +2086,17 @@ body.index #main {
   text-align: left; }
 
 #myCarousel {
-  max-width: 900px !important;
   margin-bottom: 50px; }
+  #myCarousel .carousel-inner .item img {
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vw;
+    max-height: 500px;
+    width: auto; }
+  #myCarousel .carousel-indicators {
+    margin-bottom: 0; }
 
 #sponsors {
   display: flex;
@@ -2118,12 +2127,3 @@ body.index #main {
 .financial-report {
   width: 100%;
   height: 700px; }
-
-.carousel-inner .item {
-  height: 500px; }
-  .carousel-inner .item img {
-    overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 600px; }
