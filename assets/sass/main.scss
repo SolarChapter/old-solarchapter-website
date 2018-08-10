@@ -1664,3 +1664,29 @@ body.index #main {
     height: 700px;
 }
 
+table, th, td {
+    text-align: center;
+    vertical-align: top;
+    padding: 0 10px 10px;
+
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
+#donate-banner {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+}
+
+.donate-row {
+    max-width: 600px;
+    float: left;
+    margin: 10px;
+
+    .button {
+        display: inline;
+        padding: 15px 20px;
+    }
+}
