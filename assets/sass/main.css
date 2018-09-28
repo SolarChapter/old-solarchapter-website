@@ -2104,6 +2104,7 @@ body.index #main {
   padding: 30px;
   text-align: center; 
   flex-wrap: wrap; }
+
 .sponsor-ul {
   display: flex;
   flex-wrap: wrap;
@@ -2118,16 +2119,54 @@ body.index #main {
   margin-right: 1%;
   margin-left: 1%;
   justify-content: center;
-  width: 45%;
+  width: 31%;
   flex-wrap: wrap;
- 
-  a {
+  
+}
+
+.sponsor-list a {
     border-bottom: none;
-  }
 }
 
 .sponsor-image {
   max-width: 75%; }
+
+
+/* Sponsor in 2 columns for screen width 550 px to 950 px */ 
+@media screen and (max-width: 950px) {
+  .sponsor-list {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    width: 42%;
+    flex-wrap: wrap;
+ 
+  }
+
+}
+
+/* Sponsor logos in 1 column for screen width 550 px and below */
+@media screen and (max-width: 600px) {
+  .sponsor-list {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+ 
+}
+
+
+
+
 
 .section-title {
   color: #7e5d74; }
