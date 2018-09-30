@@ -2103,7 +2103,8 @@ body.index #main {
   flex-direction: column;
   padding: 30px;
   text-align: center; 
-  flex-wrap: wrap; }
+  flex-wrap: wrap; 
+}
 
 .sponsor-ul {
   display: flex;
@@ -2120,8 +2121,7 @@ body.index #main {
   margin-left: 1%;
   justify-content: center;
   width: 31%;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 
 .sponsor-list a {
@@ -2129,7 +2129,8 @@ body.index #main {
 }
 
 .sponsor-image {
-  max-width: 75%; }
+  max-width: 75%; 
+}
 
 
 /* Sponsor in 2 columns for screen width 550 px to 950 px */ 
@@ -2143,10 +2144,8 @@ body.index #main {
     margin-left: 1%;
     justify-content: center;
     width: 42%;
-    flex-wrap: wrap;
- 
+    flex-wrap: wrap; 
   }
-
 }
 
 /* Sponsor logos in 1 column for screen width 550 px and below */
@@ -2161,12 +2160,7 @@ body.index #main {
     justify-content: center;
     width: 90%;
     flex-wrap: wrap;
- 
 }
-
-
-
-
 
 .section-title {
   color: #7e5d74; }
