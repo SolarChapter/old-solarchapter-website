@@ -2132,7 +2132,6 @@ body.index #main {
   max-width: 75%; 
 }
 
-
 /* Sponsor in 2 columns for screen width 550 px to 950 px */ 
 @media screen and (max-width: 950px) {
   .sponsor-list {
