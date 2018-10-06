@@ -2187,3 +2187,22 @@ table, th, td {
   .donate-row .button {
     display: inline;
     padding: 15px 20px; }
+
+}
+
+/* Styles for chapter two, by Dave */
+
+.chap-2-img-container {
+  text-align: center;
+}
+
+.chap-2-img-vertical {
+  width: 50%;
+  margin-bottom: 1%;
+}
+
+.chap-2-img-horizontal {
+  width: 70%;
+  margin-bottom: 2.5%;
+}
+
