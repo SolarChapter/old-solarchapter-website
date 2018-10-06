@@ -2212,6 +2212,9 @@ table, th, td {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .container-text {
