@@ -15,7 +15,7 @@ $.getJSON('assets/js/press-release.json', function(json) {
 						<p>` + pressReleaseArray[i].subTitle +`</p>
 				</div>
 				<div class="container-image">
-					<img src=` + pressReleaseArray[i].imageUrl + `alt="" style="max-width:100%;"/>
+					<img src=` + pressReleaseArray[i].imageUrl + ` alt="" style="max-width:100%;"/>
 				</div>
 			</li> 
 			`	
