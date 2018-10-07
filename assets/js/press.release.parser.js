@@ -19,7 +19,6 @@ $.getJSON('assets/js/press-release.json', function(json) {
 				</div>
 			</li> 
 			`	
-	}
+}
 })
-
 
