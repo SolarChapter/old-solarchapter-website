@@ -2206,3 +2206,20 @@ table, th, td {
   margin-bottom: 2.5%;
 }
 
+/* Press Release by Davin */
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.container-text {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.container-image {
+  flex-grow: 1;
+  flex-basis: 0;
+}  
