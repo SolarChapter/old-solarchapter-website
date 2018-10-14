@@ -2226,3 +2226,12 @@ table, th, td {
   flex-grow: 1;
   flex-basis: 0;
 }  
+
+/* Styling for pagination */
+.pagination-active {
+  background-color: black;
+}
+
+.pagination-inactive {
+  background-color: dodgerblue;
+}
