@@ -9,14 +9,16 @@ $.getJSON('assets/js/team.json', function(json) {
 function displayContents(teamMemberArray) {
     teamMemberContent = ''
 	for (var i = 0; i < teamMemberArray.length; i++) {
+        if (teamMemberArray[i].con)
         teamMemberContent += `
-        <div class="row-container">
-            <section class="row-element">
+        <div class="4u 12u (narrower)">
+            <section>
                 <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
-                <a href= "` + teamMemberArray[i].linkedin + `" class="header">
-                    <h3>` + teamMemberArray[i].name + `</h3></a>` +
-                    teamMemberArray[i].position +
-            `</section>
+                <header>
+                    <h3><a href= "` + teamMemberArray[i].linkedin + `" class="header">` + teamMemberArray[i].name + `</a></h3>` +
+                        teamMemberArray[i].position +
+                `<header>
+            </section>
         </div>`
     }	
 	return teamMemberContent
