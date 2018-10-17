@@ -1,5 +1,5 @@
 {
-    "team2017": [
+    "teamPast": [
         {
             "position": "President",
             "name": "Mustika Wijaya",
@@ -49,7 +49,7 @@
             "imagesource": "images/uiuc_team/yoga.jpeg"
         }
     ],
-    "team2018":[
+    "teamCurrent":[
         {
             "position": "President",
             "name": "Peter Siborutorop",

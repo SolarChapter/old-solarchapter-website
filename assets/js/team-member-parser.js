@@ -1,9 +1,9 @@
-teamMember2017 = document.getElementById("ul-team-member-2017")
-teamMember2018 = document.getElementById("ul-team-member-2018")
+teamMemberPast = document.getElementById("ul-team-member-past")
+teamMemberCurrent = document.getElementById("ul-team-member-current")
 
 $.getJSON('assets/js/team.json', function(json) {
-    teamMember2017.innerHTML = displayContents(json.team2017)
-    teamMember2018.innerHTML = displayContents(json.team2018)
+    teamMemberPast.innerHTML = displayContents(json.teamPast)
+    teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
 })
 
 function displayContents(teamMemberArray) {
