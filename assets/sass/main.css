@@ -2073,6 +2073,20 @@ body.index #main {
     width: 50px;
     height: 34px; } }
 
+.team-member-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member-item {
+  color: #7C8081;
+  border-bottom: none;
+}
+
+.team-member-item:hover {
+  cursor: pointer;
+}
+
 .team-member {
   max-width: 200px; }
 
@@ -2208,15 +2222,4 @@ table, th, td {
 
 .position-text {
   margin-bottom: 5.5%;}
-
-.row-container {
-  display: flex;
-  flex-wrap: row wrap;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  flex-grow: 1;
-  align-items: flex-start;
-  width: 33%;
-  position: relative;
-}
 

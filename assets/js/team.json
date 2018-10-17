@@ -57,22 +57,22 @@
             "imagesource": "images/new_uiuc_team/peter.jpeg"
         },
         {
-            "position": "Vice President/Head of Web Dev Team",
+            "position": "Vice President & Head of Web Dev Team",
             "name": "Lina Sie",
             "linkedin": "https://www.linkedin.com/in/lina-sie/",
             "imagesource": "images/new_uiuc_team/lina.jpeg"
-        },
-        {
-            "position": "Social and Cultulral Advisor",
-            "name": "Norman Dewantoro",
-            "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/norman.jpeg"
         },
         {
             "position": "Secretary",
             "name": "Nathan Sutrisno",
             "linkedin": "javascript:", 
             "imagesource": "images/new_uiuc_team/nathan.jpeg"
+        },
+        {
+            "position": "Social and Cultulral Advisor",
+            "name": "Norman Dewantoro",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/norman.jpeg"
         },
         {
             "position": "Social Media and Promotion",
@@ -112,24 +112,24 @@
         },
         {
             "position": "Finance and Fundraising Team",
-            "name": "Naomi Emamanuella",
+            "name": "Naomi Emanuella",
             "linkedin": "javascript:",
             "imagesource": "images/new_uiuc_team/naomi.jpeg"
         },
         {
-            "position": "Finance and Fundraising Team Member",
+            "position": "Finance and Fundraising Team",
             "name": "Madeline Rantung",
             "linkedin": "www.linkedin.com/in/madelinekimberly",
             "imagesource": "images/new_uiuc_team/madeline.jpeg"
         },
         {
-            "position": "Web Dev Team Member",
+            "position": "Web Dev Team",
             "name": "Dave Istanto",
             "linkedin": "https://www.linkedin.com/in/dave-istanto-17b4a915a/", 
             "imagesource": "images/new_uiuc_team/dave.jpeg"
         },
         {
-            "position": "Web Dev Team Member",
+            "position": "Web Dev Team",
             "name": "Davin Widjaja",
             "linkedin": "https://www.linkedin.com/in/davin-widjaja/", 
             "imagesource": "images/new_uiuc_team/davin.jpeg"

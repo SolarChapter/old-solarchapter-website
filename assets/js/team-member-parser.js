@@ -10,13 +10,15 @@ function displayContents(teamMemberArray) {
     teamMemberContent = ''
 	for (var i = 0; i < teamMemberArray.length; i++) {
         teamMemberContent += `
-        <div class="row-container">
-            <section class="row-element">
-                <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
-                <a href= "` + teamMemberArray[i].linkedin + `" class="header">
-                    <h3>` + teamMemberArray[i].name + `</h3></a>` +
-                    teamMemberArray[i].position +
-            `</section>
+        <div class="4u 12u(narrower)">
+            <section>
+                <a href="` + teamMemberArray[i].linkedin + `" class="team-member-item">
+                    <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
+                    <h3>` + teamMemberArray[i].name + `</h3>` +
+                        teamMemberArray[i].position +
+                `</a>
+            </section>
+            
         </div>`
     }	
 	return teamMemberContent
