@@ -1753,8 +1753,7 @@ body.index #main {
     padding: 3em; } }
 
 /* Narrower */
-#navPanel, #navButton {
-  display: none; }
+#navPanel, #navButton { }
 
 @media screen and (max-width: 840px) {
   /* Basic */
@@ -2223,3 +2222,6 @@ table, th, td {
 .position-text {
   margin-bottom: 5.5%;}
 
+.wrapper.special.member-title {
+  display: inline;
+}
