@@ -1,25 +1,30 @@
-teamMember2017 = document.getElementById("ul-team-member-2017")
-teamMember2018 = document.getElementById("ul-team-member-2018")
+teamMemberPast = document.getElementById("ul-team-member-past")
+teamMemberCurrent = document.getElementById("ul-team-member-current")
 
 $.getJSON('assets/js/team.json', function(json) {
-    teamMember2017.innerHTML = displayContents(json.team2017)
-    teamMember2018.innerHTML = displayContents(json.team2018)
+    teamMemberPast.innerHTML = displayContents(json.teamPast)
+    teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
 })
 
 function displayContents(teamMemberArray) {
     teamMemberContent = ''
 	for (var i = 0; i < teamMemberArray.length; i++) {
-        if (teamMemberArray[i].con)
+        if (teamMemberArray[i].position.includes('&')) {
+            positionArray = teamMemberArray[i].position.split('&')
+            teamMemberArray[i].position = positionArray[0] + `<br>` + positionArray[1]
+        }
+        console.log(teamMemberArray[i].position)
         teamMemberContent += `
-        <div class="4u 12u (narrower)">
+        <div class="4u 12u(narrower)">
             <section>
-                <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
-                <header>
-                    <h3><a href= "` + teamMemberArray[i].linkedin + `" class="header">` + teamMemberArray[i].name + `</a></h3>` +
+                <a href="` + teamMemberArray[i].linkedin + `" class="team-member-item">
+                    <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
+                    <h3>` + teamMemberArray[i].name + `</h3>` +
                         teamMemberArray[i].position +
-                `<header>
+                `</a>
             </section>
         </div>`
+        console.log(teamMemberContent)
     }	
 	return teamMemberContent
 }
