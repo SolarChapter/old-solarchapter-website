@@ -69,34 +69,16 @@
             "imagesource": "images/new_uiuc_team/nathan.jpeg"
         },
         {
-            "position": "Social and Cultulral Advisor",
-            "name": "Norman Dewantoro",
-            "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/norman.jpeg"
-        },
-        {
             "position": "Social Media and Promotion",
             "name": "Helena Faustine",
             "linkedin": "javascript:",
             "imagesource": "images/new_uiuc_team/helena.jpeg"
         },
         {
-            "position": "Head of Public Relation",
-            "name": "Jeffrey Ryan",
-            "linkedin": "javascript:", 
-            "imagesource": "images/new_uiuc_team/jeffrey.jpeg"
-        },
-        {
-            "position": "Public Relation Team",
-            "name": "Natasha Fandawa",
-            "linkedin": "https://www.linkedin.com/in/natasha-fandawa-893856149/", 
-            "imagesource": "images/new_uiuc_team/natasha.jpeg"
-        },
-        {
-            "position": "Public Relation Team",
-            "name": "Yorin Anggari",
-            "linkedin": "javascript:", 
-            "imagesource": "images/new_uiuc_team/yorin.jpeg"
+            "position": "Social and Cultulral Advisor",
+            "name": "Norman Dewantoro",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/norman.jpeg"
         },
         {
             "position": "Finance and Fundraising Team",
@@ -121,6 +103,24 @@
             "name": "Madeline Rantung",
             "linkedin": "www.linkedin.com/in/madelinekimberly",
             "imagesource": "images/new_uiuc_team/madeline.jpeg"
+        },
+        {
+            "position": "Head of Public Relation",
+            "name": "Jeffrey Ryan",
+            "linkedin": "javascript:", 
+            "imagesource": "images/new_uiuc_team/jeffrey.jpeg"
+        },
+        {
+            "position": "Public Relation Team",
+            "name": "Natasha Fandawa",
+            "linkedin": "https://www.linkedin.com/in/natasha-fandawa-893856149/", 
+            "imagesource": "images/new_uiuc_team/natasha.jpeg"
+        },
+        {
+            "position": "Public Relation Team",
+            "name": "Yorin Anggari",
+            "linkedin": "javascript:", 
+            "imagesource": "images/new_uiuc_team/yorin.jpeg"
         },
         {
             "position": "Web Dev Team",
