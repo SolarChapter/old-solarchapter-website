@@ -2085,6 +2085,7 @@ body.index #main {
 
 .team-member-item:hover {
   cursor: pointer;
+  border-bottom: dotted 1px;
 }
 
 .team-member {
