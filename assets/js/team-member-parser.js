@@ -11,7 +11,7 @@ function displayContents(teamMemberArray) {
 	for (var i = 0; i < teamMemberArray.length; i++) {
         if (teamMemberArray[i].position.includes('&')) {
             positionArray = teamMemberArray[i].position.split('&')
-            teamMemberArray[i].position =  `<span class="member-title">` + positionArray[0] + `</span>` + `<br>` +
+            teamMemberArray[i].position =  `<span class="member-title">` + positionArray[0] + `</span>`  +
             `<span class="member-title">` + positionArray[1] + `</span>`
         }
         console.log(teamMemberArray[i].position)
