@@ -2086,6 +2086,9 @@ body.index #main {
 .team-member-item:hover {
   cursor: pointer;
 }
+.team-member-title {
+  display: block !important;
+}
 
 .team-member {
   max-width: 200px; }
@@ -2223,6 +2226,3 @@ table, th, td {
 .position-text {
   margin-bottom: 5.5%;}
 
-.team-member-title {
-    display: block !important;
-}
