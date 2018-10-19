@@ -11,7 +11,8 @@ function displayContents(teamMemberArray) {
 	for (var i = 0; i < teamMemberArray.length; i++) {
         if (teamMemberArray[i].position.includes('&')) {
             positionArray = teamMemberArray[i].position.split('&')
-            teamMemberArray[i].position = positionArray[0] + `<br>` + positionArray[1]
+            teamMemberArray[i].position =  `<span class="member-title">` + positionArray[0] + `</span>`  +
+            `<span class="team-member-title">` + positionArray[1] + `</span>`
         }
         console.log(teamMemberArray[i].position)
         teamMemberContent += `
@@ -19,12 +20,11 @@ function displayContents(teamMemberArray) {
             <section>
                 <a href="` + teamMemberArray[i].linkedin + `" class="team-member-item">
                     <img src="` + teamMemberArray[i].imagesource + `" class="team-member">
-                    <h3>` + teamMemberArray[i].name + `</h3>` +
-                        teamMemberArray[i].position +
+                    <h3>` + teamMemberArray[i].name + `</h3>` +  
+                    teamMemberArray[i].position + 
                 `</a>
             </section>
         </div>`
-        console.log(teamMemberContent)
     }	
 	return teamMemberContent
 }

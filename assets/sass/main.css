@@ -2088,6 +2088,10 @@ body.index #main {
   border-bottom: dotted 1px;
 }
 
+.team-member-title {
+  display: block !important;
+}
+
 .team-member {
   max-width: 200px; }
 
