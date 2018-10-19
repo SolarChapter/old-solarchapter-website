@@ -2079,8 +2079,8 @@ body.index #main {
 }
 
 .team-member-item {
-  color: #7C8081 !important;
-  border-bottom: none !important;
+  color: #7C8081;
+  border-bottom: none;
 }
 
 .team-member-item:hover {
