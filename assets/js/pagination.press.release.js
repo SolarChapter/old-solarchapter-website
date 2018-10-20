@@ -1,4 +1,4 @@
-paginationSection = document.getElementById("press-release-pagination")
+paginationSection = document.getElementById("press-release-pagination-container")
 currentPage = 1
 
 $.getJSON('assets/js/press-release.json', function(json) {
@@ -10,33 +10,25 @@ $.getJSON('assets/js/press-release.json', function(json) {
 })
 
 function setUpPageNumbers(totalPages) {
-    pageNumbers = "<ul>"
+    pageNumbers = ``
     for (i = 1; i <= totalPages; i++) {
         pageNumbers += 
-            `<li>
-                <button id="pagination` + i + `" onClick=changeCurrentPageOnClick(` + i + `) class="pagination-inactive">` + i + `</button>
-            </li>
-            `                                   
+        `<div class = "pagination" id = "pagination-container` + i + `">` + 
+        `<div id="pagination` + i + `" onClick=changeCurrentPageOnClick(` + i + `) class="pagination-inactive">` + i + `</div>` +
+        `</div>`
     }
-    pageNumbers += "</ul>"
     return pageNumbers
 }
 
 function setActivatedPage(targetPage) {
     // inactivate current page
-    console.log(document.getElementById("pagination" + currentPage))
-    document.getElementById(`pagination` + currentPage).innerHTML = 
-        `<li>
-        <button id="pagination` + currentPage + `" onClick=changeCurrentPageOnClick(` + currentPage + `) class="pagination-inactive">` + currentPage + `</button>
-        </li>`    
+    currentPageButton = document.getElementById(`pagination-container` + currentPage) 
+    currentPageButton.innerHTML = `<div id="pagination` + currentPage + `" onClick=changeCurrentPageOnClick(` + currentPage + `) class="pagination-inactive">` + currentPage + `</div>`    
     
     // activate target page
+    targetPageButton = document.getElementById(`pagination-container` + targetPage)
+    targetPageButton.innerHTML = `<div id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-active">` + targetPage + `</div>`    
     
-    document.getElementById(`pagination` + targetPage).innerHTML = 
-        `<li>
-        <button id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-active">` + targetPage + `</button>
-        </li>
-        `    
     currentPage = targetPage
 }
 
