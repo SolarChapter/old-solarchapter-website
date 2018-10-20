@@ -1,12 +1,13 @@
 paginationSection = document.getElementById("press-release-pagination-container")
 currentPage = 1
 
+
 $.getJSON('assets/js/press-release.json', function(json) {
     pressReleaseArray = json.pressRelease
     // change the number of article per page into dynamic
     totalPages = Math.ceil(pressReleaseArray.length/5)    
     paginationSection.innerHTML = setUpPageNumbers(totalPages)
-    setActivatedPage(1)
+    setActivatedPage(1);
 })
 
 function setUpPageNumbers(totalPages) {
@@ -32,10 +33,13 @@ function setActivatedPage(targetPage) {
     currentPage = targetPage
 }
 
-function changeCurrentPageOnClick(targetPage) {
-    pressReleaseUnorderedList.innerHTML = displayContents(targetPage, pressReleaseArray)
-    setActivatedPage(targetPage)
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
-
+function changeCurrentPageOnClick(targetPage) {
+    pressReleaseUnorderedList.innerHTML = displayContents(targetPage, pressReleaseArray);
+    setActivatedPage(targetPage);
+    scrollToTop();
+}
