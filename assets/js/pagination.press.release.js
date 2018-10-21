@@ -1,45 +1,45 @@
-paginationSection = document.getElementById("press-release-pagination")
+paginationSection = document.getElementById("press-release-pagination-container")
 currentPage = 1
+
 
 $.getJSON('assets/js/press-release.json', function(json) {
     pressReleaseArray = json.pressRelease
     // change the number of article per page into dynamic
-    totalPages = Math.ceil(pressReleaseArray.length/5)    
+    totalPages = Math.ceil((pressReleaseArray.length)/5)   
     paginationSection.innerHTML = setUpPageNumbers(totalPages)
-    setActivatedPage(1)
+    setActivatedPage(1);
 })
 
 function setUpPageNumbers(totalPages) {
-    pageNumbers = "<ul>"
+    pageNumbers = ``
     for (i = 1; i <= totalPages; i++) {
-        pageNumbers += 
-            `<li>
-                <button id="pagination` + i + `" onClick=changeCurrentPageOnClick(` + i + `) class="pagination-inactive">` + i + `</button>
-            </li>
-            `                                   
+        pageNumbers += `<div class = "pagination" id = "pagination-container` + i + `">` + 
+        `<div id="pagination` + i + `" onClick=changeCurrentPageOnClick(` + i + 
+        `) class="pagination-inactive">` + i + `</div>` +
+        `</div>`
     }
-    pageNumbers += "</ul>"
     return pageNumbers
 }
 
 function setActivatedPage(targetPage) {
     // inactivate current page
-    console.log(document.getElementById("pagination" + currentPage))
-    document.getElementById(`pagination` + currentPage).innerHTML = 
-        `<li>
-        <button id="pagination` + currentPage + `" onClick=changeCurrentPageOnClick(` + currentPage + `) class="pagination-inactive">` + currentPage + `</button>
-        </li>`    
+    currentPageButton = document.getElementById(`pagination-container` + currentPage) 
+    currentPageButton.innerHTML = `<div id="pagination` + currentPage + `" onClick=changeCurrentPageOnClick(` + currentPage + `) class="pagination-inactive">` + currentPage + `</div>`    
     
     // activate target page
-    document.getElementById(`pagination` + targetPage).innerHTML = 
-        `<li>
-        <button id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-active">` + targetPage + `</button>
-        </li>
-        `    
+    targetPageButton = document.getElementById(`pagination-container` + targetPage)
+    targetPageButton.innerHTML = `<div id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-active">` + targetPage + `</div>`    
+    
     currentPage = targetPage
 }
 
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 function changeCurrentPageOnClick(targetPage) {
-    pressReleaseUnorderedList.innerHTML = displayContents(targetPage, pressReleaseArray)
-    setActivatedPage(targetPage)
+    pressReleaseUnorderedList.innerHTML = displayContents(targetPage, pressReleaseArray);
+    setActivatedPage(targetPage);
+    scrollToTop();
 }
