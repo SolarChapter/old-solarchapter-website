@@ -5,7 +5,7 @@ currentPage = 1
 $.getJSON('assets/js/press-release.json', function(json) {
     pressReleaseArray = json.pressRelease
     // change the number of article per page into dynamic
-    totalPages = Math.ceil(pressReleaseArray.length/5)    
+    totalPages = Math.ceil((pressReleaseArray.length)/5)   
     paginationSection.innerHTML = setUpPageNumbers(totalPages)
     setActivatedPage(1);
 })
