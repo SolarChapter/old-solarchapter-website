@@ -31,7 +31,6 @@ function setActivatedPage(targetPage) {
         </li>`    
     
     // activate target page
-    
     document.getElementById(`pagination` + targetPage).innerHTML = 
         `<li>
         <button id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-active">` + targetPage + `</button>
@@ -44,6 +43,3 @@ function changeCurrentPageOnClick(targetPage) {
     pressReleaseUnorderedList.innerHTML = displayContents(targetPage, pressReleaseArray)
     setActivatedPage(targetPage)
 }
-
-
-
