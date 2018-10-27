@@ -1,0 +1,54 @@
+{
+    "teamPast": [
+        {
+            "position": "President",
+            "name": "Mustika Wijaya",
+            "linkedin": "javascript:",
+            "imagesource": "images/uiuc_team/mustika.jpeg"
+        }
+    ],
+    "teamCurrent":[
+        {
+            "position": "President",
+            "name": "Madeleine Setiono",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/peter.jpeg"
+        },
+        {
+            "position": "Vice President & Public Relations Chair",
+            "name": "Rachel Clementine",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/lina.jpeg"
+        },
+        {
+            "position": "Finance Chair",
+            "name": "Keshia Setiawan",
+            "linkedin": "javascript:", 
+            "imagesource": "images/new_uiuc_team/nathan.jpeg"
+        },
+        {
+            "position": "Publicity Chair",
+            "name": "Bethari Kamarga",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/helena.jpeg"
+        },
+        {
+            "position": "Funding & Sponsorship Chair",
+            "name": "Winny Soerianto",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/norman.jpeg"
+        },
+        {
+            "position": "Tech Chair",
+            "name": "Natasha Sutantyo",
+            "linkedin": "javascript:", 
+            "imagesource": "images/new_uiuc_team/jason.jpeg"
+        },
+        {
+            "position": "Finance and Fundraising Team",
+            "name": "Louisa Katherine",
+            "linkedin": "javascript:",
+            "imagesource": "images/new_uiuc_team/louisa.jpeg"
+        }
+    ]
+}

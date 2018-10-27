@@ -1,7 +1,7 @@
 teamMemberPast = document.getElementById("ul-team-member-past")
 teamMemberCurrent = document.getElementById("ul-team-member-current")
 
-$.getJSON('assets/js/team.json', function(json) {
+$.getJSON('assets/js/teams/uiuc-team.json', function(json) {
     teamMemberPast.innerHTML = displayContents(json.teamPast)
     teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
 })
