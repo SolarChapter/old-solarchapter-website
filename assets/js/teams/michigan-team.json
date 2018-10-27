@@ -1,54 +1,43 @@
 {
     "teamPast": [
-        {
-            "position": "President",
-            "name": "Mustika Wijaya",
-            "linkedin": "javascript:",
-            "imagesource": "images/uiuc_team/mustika.jpeg"
-        }
+        
     ],
     "teamCurrent":[
         {
             "position": "President",
             "name": "Madeleine Setiono",
             "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/peter.jpeg"
+            "imagesource": "images/michigan_team/madeleine-setiono.jpg"
         },
         {
             "position": "Vice President & Public Relations Chair",
             "name": "Rachel Clementine",
             "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/lina.jpeg"
+            "imagesource": "images/michigan_team/rachel-clementine.jpg"
         },
         {
             "position": "Finance Chair",
             "name": "Keshia Setiawan",
             "linkedin": "javascript:", 
-            "imagesource": "images/new_uiuc_team/nathan.jpeg"
+            "imagesource": "images/michigan_team/keshia-setiawan.jpg"
         },
         {
             "position": "Publicity Chair",
             "name": "Bethari Kamarga",
             "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/helena.jpeg"
+            "imagesource": "images/michigan_team/bethari-kamarga.jpg"
         },
         {
             "position": "Funding & Sponsorship Chair",
             "name": "Winny Soerianto",
             "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/norman.jpeg"
+            "imagesource": "images/michigan_team/winny-soerianto.jpg"
         },
         {
             "position": "Tech Chair",
             "name": "Natasha Sutantyo",
             "linkedin": "javascript:", 
-            "imagesource": "images/new_uiuc_team/jason.jpeg"
-        },
-        {
-            "position": "Finance and Fundraising Team",
-            "name": "Louisa Katherine",
-            "linkedin": "javascript:",
-            "imagesource": "images/new_uiuc_team/louisa.jpeg"
+            "imagesource": "images/michigan_team/natasha-sutantyo.jpg"
         }
     ]
 }

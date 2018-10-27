@@ -1,9 +1,27 @@
-teamMemberPast = document.getElementById("ul-team-member-past")
-teamMemberCurrent = document.getElementById("ul-team-member-current")
+var teams = ["uiuc", "michigan", "purdue"];
 
-$.getJSON('assets/js/teams/uiuc-team.json', function(json) {
-    teamMemberPast.innerHTML = displayContents(json.teamPast)
+var index = 0;
+var teamMemberPast = document.getElementById("uiuc-team-member-past")
+var teamMemberCurrent = document.getElementById("uiuc-team-member-current")
+var pastMemberExists = document.getElementById("pastMemberExists")
+
+while (!teamMemberCurrent) {
+    index++;
+    var idNamePast = teams[index] + "-team-member-past";
+    var idNameCurrent = teams[index] + "-team-member-current";
+    teamMemberPast = document.getElementById(idNamePast);
+    teamMemberCurrent = document.getElementById(idNameCurrent);
+}
+
+var jsonFile = "assets/js/teams/" + teams[index] + "-team.json"
+
+$.getJSON(jsonFile, function(json) {
+    console.log(json.teamPast.length);
     teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
+    if (json.teamPast.length != 0) {
+        pastMemberExists.innerHTML = displayPastMemberHeader();
+        teamMemberPast.innerHTML = displayContents(json.teamPast)
+    }
 })
 
 function displayContents(teamMemberArray) {
@@ -14,7 +32,6 @@ function displayContents(teamMemberArray) {
             teamMemberArray[i].position =  `<span class="member-title">` + positionArray[0] + `</span>`  +
             `<span class="team-member-title">` + positionArray[1] + `</span>`
         }
-        console.log(teamMemberArray[i].position)
         teamMemberContent += `
         <div class="4u 12u(narrower)">
             <section>
@@ -27,4 +44,8 @@ function displayContents(teamMemberArray) {
         </div>`
     }	
 	return teamMemberContent
+}
+
+function displayPastMemberHeader() {
+    return '<br><br><header><h2 class="section-title"><strong>Past Team Members</strong></h2></header>'
 }
