@@ -16,7 +16,6 @@ while (!teamMemberCurrent) {
 var jsonFile = "assets/js/teams/" + teams[index] + "-team.json"
 
 $.getJSON(jsonFile, function(json) {
-    console.log(json.teamPast.length);
     teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
     if (json.teamPast.length != 0) {
         pastMemberExists.innerHTML = displayPastMemberHeader();
