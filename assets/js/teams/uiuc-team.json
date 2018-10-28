@@ -69,6 +69,12 @@
             "imagesource": "images/current_uiuc_team/nathan.jpeg"
         },
         {
+            "position": "Treasurer",
+            "name": "Jason Sumbada",
+            "linkedin": "javascript:", 
+            "imagesource": "images/current_uiuc_team/jason.jpeg"
+        },
+        {
             "position": "Social Media and Promotion",
             "name": "Helena Faustine",
             "linkedin": "javascript:",
@@ -81,13 +87,7 @@
             "imagesource": "images/current_uiuc_team/norman.jpeg"
         },
         {
-            "position": "Finance and Fundraising Team",
-            "name": "Jason Sumbada",
-            "linkedin": "javascript:", 
-            "imagesource": "images/current_uiuc_team/jason.jpeg"
-        },
-        {
-            "position": "Finance and Fundraising Team",
+            "position": "Head of Fundraising Team",
             "name": "Louisa Katherine",
             "linkedin": "javascript:",
             "imagesource": "images/current_uiuc_team/louisa.jpeg"
