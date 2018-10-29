@@ -36,7 +36,23 @@ function setActivatedPage(targetPage) {
     // activate target page
     targetPageButton = document.getElementById(`pagination-container` + targetPage)
     targetPageButton.innerHTML = `<div id="pagination` + targetPage + `" onClick=changeCurrentPageOnClick(` + targetPage + `) class="pagination-button button-active">` + targetPage + `</div>`    
-    
+        
+    // Make "previous" button disappear if on page 1
+    prevPageButton = document.getElementById(`pagination-container-previous`)
+    if (targetPage == 1) {
+        prevPageButton.innerHTML = `<div id="pagination-previous" onClick=changeCurrentPageOnClick("prev") class="pagination-button button-inactive"></div>`
+    } else {
+        prevPageButton.innerHTML = `<div id="pagination-previous" onClick=changeCurrentPageOnClick("prev") class="pagination-button button-inactive">previous</div>`
+    }
+
+    // Make "next" button disappear if on last page
+    nextPageButton = document.getElementById(`pagination-container-next`)
+    if (targetPage == totalPages) {
+        nextPageButton.innerHTML = `<div id = "pagination-next" onClick=changeCurrentPageOnClick("next") class="pagination-button button-inactive"></div>`
+    } else {
+        nextPageButton.innerHTML = `<div id = "pagination-next" onClick=changeCurrentPageOnClick("next") class="pagination-button button-inactive">next</div>`
+    }
+
     currentPage = targetPage
 }
 
