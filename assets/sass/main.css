@@ -2272,7 +2272,9 @@ table, th, td {
   color: white;
 }
 
-
+.inactive-pagination-prev-next:hover {
+  cursor: default;
+}
 
 
 
