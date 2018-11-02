@@ -2242,3 +2242,11 @@ table, th, td {
   width: 100%;
   height: 100%;
 }
+
+#donate-container {
+  padding: 0 !important;
+}
+
+#donate-container img {
+  max-width: 100%;
+}
