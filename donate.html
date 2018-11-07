@@ -112,25 +112,17 @@
             </article>
 
             <!-- Footer -->
-            <footer id="footer">
-
-                <ul class="icons">
-                    <li><a href="https://www.facebook.com/solarchapter/" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/solarchapter/" class="icon circle fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCqj1kNOurGHy6yCgGqtC2fQ" class="icon circle fa-youtube"><span class="label">Youtube</span></a></li>
-                    <li><a href="mailto:solarchapterofficial@gmail.com" class="icon circle fa-envelope"><span class="label">Email</span></a></li>
-                </ul>
-
-                <ul class="copyright">
-                    <li>Copyright &copy; 2018 Solar Chapter</li>
-                </ul>
-
-            </footer>
+            <div id="footer-container"></div>
 
         </div>
 
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#footer-container').load('components/footer.html');
+            });
+        </script>
         <script src="assets/js/jquery.dropotron.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/jquery.scrollgress.min.js"></script>
