@@ -25,37 +25,16 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="assets/favicons.ico/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     </head>
     <body class="contact">
         <div id="page-wrapper">
 
             <!-- Header -->
-            <header id="header">
-                <h1 id="logo"><a href="index.html">Solar Chapter</a></h1>
-                <nav id="nav">
-                    <ul>
-                        <li class="submenu current">
-                            <a href="#projects" class="button fit scrolly">Projects</a>
-                            <ul>
-                                <li><a href="chapter-one.html">Chapter 1: Water</a></li>
-                            </ul> 
-                        </li>
-                        <li class="submenu current">
-                            <a href="" class="button">Our Teams</a>
-                            <ul>
-                                <li><a href="uiuc-team.html">UIUC Team</a></li>
-                                <li><a href="michigan-team.html">Michigan Team</a></li>
-                            </ul> 
-                        </li>
-                        <li class="current"><a href="contact.html" class="button">Contact</a></li>
-                        <li><a href="https://kitabisa.com/solarchapter2" class="button special">Donate</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <div id="header-container"></div>
 
             <!-- Main -->
             <article id="main">
-
                 <header class="special container">
                     <span class="icon fa-envelope"></span>
                     <h2>Get In Touch</h2>
@@ -109,6 +88,12 @@
 
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#header-container').load('components/header.html');
+                $('#footer-container').load('components/footer.html');
+            });
+        </script>
         <script src="assets/js/jquery.dropotron.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/jquery.scrollgress.min.js"></script>
@@ -116,6 +101,5 @@
         <script src="assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
-        <script src="components/footer.js"></script>
     </body>
 </html>
