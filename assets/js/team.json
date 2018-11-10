@@ -1,0 +1,67 @@
+{
+	"team": [{
+			"position": "President",
+			"firstname": "Mustika",
+			"lastname": "Wijaya",
+			"email": "",
+			"major": "Electrical Engineering"
+		},
+		{
+			"position": "Vice President",
+			"firstname": "Ivan",
+			"lastname": "Fransiga",
+			"email": "",
+			"major": "Mechanical Engineering"
+		},
+		{
+			"position": "Technical Team",
+			"firstname": "Johan",
+			"lastname": "Kustandi",
+			"email": "",
+			"major": "Civil Engineering"
+		},
+		{
+			"position": "Public Relations",
+			"firstname": "Jeffrey",
+			"lastname": "Ryan",
+			"email": "",
+			"major": "Food Science"
+		},
+		{
+			"position": "Webmaster",
+			"firstname": "Lina",
+			"lastname": "Sie",
+			"email": "",
+			"major": "Computer Science"
+		},
+		{
+			"position": "Project Coordinator",
+			"firstname": "Edwint",
+			"lastname": "Widjaya",
+			"email": "",
+			"major": "Civil Engineering & Management Strategy"
+		},
+		{
+			"position": "Fundraising Team",
+			"firstname": "Ghianina",
+			"lastname": "Armand",
+			"email": "",
+			"major": "Psychology & Child Development"
+		},
+		{
+			"position": "Fundraising Team",
+			"firstname": "Peter",
+			"lastname": "Siborutorop",
+			"email": "",
+			"major": ""
+		},
+		{
+			"position": "Media",
+			"firstname": "Helena",
+			"lastname": "Faustine",
+			"email": "",
+			"major": ""
+		}
+
+	]
+}
