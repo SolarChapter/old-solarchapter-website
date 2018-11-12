@@ -2245,8 +2245,48 @@ table, th, td {
 
 #donate-container {
   padding: 0 !important;
+  display: inline-block;
+  display: flex; 
+  flex-wrap: wrap-reverse; 
+  background: url(/images/donate/donation-side.png) no-repeat local left center;
 }
 
 #donate-container img {
   max-width: 100%;
 }
+
+.donate-top-section { 
+  display: flex; 
+  flex-wrap: wrap-reverse; 
+  padding: 4em;
+}
+
+#donate-container-2 {
+  padding: 0 !important;
+  background-color: #568fd1;
+}
+
+.donate-bot-section {
+  display: flex; 
+  padding: 4em;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.donate-text {
+  line-height: 1.75em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+  .donate-text h2 {
+    color: #fafafa;
+    font-size: 120%;
+    font-weight: 650;
+  }
+  .donate-text p {
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: 450;
+  }
