@@ -10,40 +10,58 @@
             "imagesource": "images/teams/purdue_team/Lin_Sun_Fa.jpg"
         },
         {
-            "position": "Vice President & Public Relation Team",
-            "name": "Albert Wiradharma",
-            "linkedin": "https://linkedin.com/in/albert-wiradharma",
-            "imagesource": "images/teams/purdue_team/Albert_Wiradharma.jpg"
-        },
-        {
-            "position": "Secretary & Event Organizer Team",
+            "position": "Secretary",
             "name": "Michelle Brian",
             "linkedin": "https://www.linkedin.com/in/michelle-brian-291593173",
             "imagesource": "images/teams/purdue_team/Michelle_Brian.jpg"
         },
         {
-            "position": "Treasurer & Event Organizer Team",
+            "position": "Treasurer",
             "name": "Nathan Bruns",
             "linkedin": "http://linkedin.com/in/nathan-bruns-88345714b",
             "imagesource": "images/teams/purdue_team/Nathan_Bruns.jpg"
         },
         {
-            "position": "Public Relation Team",
-            "name": "Jarrett Huber",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/purdue_team/Jarrett_Huber.jpg"
+            "position": "Logistic Director",
+            "name": "Jacob Alspaugh",
+            "linkedin": "https://www.linkedin.com/in/jacob-alspaugh-4a9388148/",
+            "imagesource": "images/teams/purdue_team/Jacob_Alspaugh.jpg"
         },
         {
-            "position": "Technical Team",
+            "position": "Logistic Team",
             "name": "Surwin Hartana",
             "linkedin": "https://linkedin.com/in/surwin-hartana",
             "imagesource": "images/teams/purdue_team/Surwin_Hartana.jpg"
         },
         {
+            "position": "Logistic Team",
+            "name": "Jason Harijono",
+            "linkedin": " https://www.linkedin.com/in/jason-harijono-29bb69135/",
+            "imagesource": "images/teams/purdue_team/Jason_Harijono.jpg"
+        },
+        {
+            "position": "Logistic Team",
+            "name": "Angga Djaputra",
+            "linkedin": "https://www.linkedin.com/in/angga-djaputra-6b001a136",
+            "imagesource": "images/teams/purdue_team/Angga_Djaputra.jpg"
+        },
+        {
+            "position": "Logistic Team",
+            "name": "Andrew Feikes",
+            "linkedin": "https://www.linkedin.com/in/andrew-feikes-a6630a174/",
+            "imagesource": "images/teams/purdue_team/Andrew_Feikes.jpg"
+        },
+        {
+            "position": "Technical Director",
+            "name": "Dwi Sutandar",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/purdue_team/Dwi_Sutandar.jpg"
+        },
+        {
             "position": "Technical Team",
-            "name": "Jacob Alspaugh",
-            "linkedin": "https://www.linkedin.com/in/jacob-alspaugh-4a9388148/",
-            "imagesource": "images/teams/purdue_team/Jacob_Alspaugh.jpg"
+            "name": "Jonathan Harstine",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/purdue_team/Jonathan_Harstine.jpg"
         },
         {
             "position": "Technical Team",
@@ -52,46 +70,47 @@
             "imagesource": "images/teams/purdue_team/Hans_Torsina.jpg"
         },
         {
-            "position": "Event Organizer Team",
-            "name": "Jason Harijono",
-            "linkedin": " https://www.linkedin.com/in/jason-harijono-29bb69135/",
-            "imagesource": "images/teams/purdue_team/Jason_Harijono.jpg"
+            "position": "Technical Team",
+            "name": "Edward Brian",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/purdue_team/Edward_Brian.jpg"
         },
         {
-            "position": "Event Organizer Team",
-            "name": "Karren Suryawijaya",
+            "position": "Art Design & Production Director",
+            "name": "Karren Suryajaya",
             "linkedin": "https://www.linkedin.com/in/karrensuryajaya/",
-            "imagesource": "images/teams/purdue_team/Karren_Suryawijaya.jpg"
+            "imagesource": "images/teams/purdue_team/Karren_Suryajaya.jpg"
         },
         {
-            "position": "Event Organizer Team",
-            "name": "Florensia Chandra",
+            "position": "Art Design & Production Team",
+            "name": "Florencia Chandra",
             "linkedin": "https://www.linkedin.com/in/florencia-chandra-708980119",
             "imagesource": "images/teams/purdue_team/Florencia_Chandra.jpg"
         },
         {
-            "position": "Event Organizer Team",
-            "name": "Angga Djaputra",
-            "linkedin": "https://www.linkedin.com/in/angga-djaputra-6b001a136",
-            "imagesource": "images/teams/purdue_team/Angga_Djaputra.jpg"
+            "position": "Social Media Director",
+            "name": "Albert Wiradharma",
+            "linkedin": "https://linkedin.com/in/albert-wiradharma",
+            "imagesource": "images/teams/purdue_team/Albert_Wiradharma.jpg"
         },
         {
-            "position": "Event Organizer Team",
+            "position": "Social Media Team",
+            "name": "Sunil Green",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/purdue_team/Sunil_Green.jpg"
+        },
+        {
+            "position": "Editing Director",
+            "name": "Jarrett Huber",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/purdue_team/Jarrett_Huber.jpg"
+        },
+        {
+            "position": "Editing Team",
             "name": "Priscilla Garsia",
             "linkedin": "https://www.linkedin.com/in/priscilla-gracia-617441157",
             "imagesource": "images/teams/purdue_team/Priscilla_Garcia.jpg"
         },
-        {
-            "position": "Event Organizer Team",
-            "name": "Jonathan Harstine",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/purdue_team/Jonathan_Harstine.jpg"
-        },
-        {
-            "position": "Event Organizer Team",
-            "name": "Andrew Feikes",
-            "linkedin": "https://www.linkedin.com/in/andrew-feikes-a6630a174/",
-            "imagesource": "images/teams/purdue_team/Andrew_Feikes.jpg"
-        }
+
     ]
 }
