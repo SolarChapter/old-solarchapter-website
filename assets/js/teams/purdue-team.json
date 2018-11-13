@@ -76,13 +76,13 @@
             "imagesource": "images/teams/purdue_team/Edward_Brian.jpg"
         },
         {
-            "position": "Art Design & Production Director",
+            "position": "Art Design and Production Director",
             "name": "Karren Suryajaya",
             "linkedin": "https://www.linkedin.com/in/karrensuryajaya/",
             "imagesource": "images/teams/purdue_team/Karren_Suryajaya.jpg"
         },
         {
-            "position": "Art Design & Production Team",
+            "position": "Art Design and Production Team",
             "name": "Florencia Chandra",
             "linkedin": "https://www.linkedin.com/in/florencia-chandra-708980119",
             "imagesource": "images/teams/purdue_team/Florencia_Chandra.jpg"
@@ -110,7 +110,6 @@
             "name": "Priscilla Garsia",
             "linkedin": "https://www.linkedin.com/in/priscilla-gracia-617441157",
             "imagesource": "images/teams/purdue_team/Priscilla_Garcia.jpg"
-        },
-
+        }
     ]
 }
