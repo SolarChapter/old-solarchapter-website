@@ -2253,16 +2253,13 @@ table, th, td {
   background-size: cover;
 }
 
-#donate-container img {
-  max-width: 100%;
-}
-
 .donate-top-section { 
   display: flex; 
   flex-wrap: wrap-reverse; 
   padding: 4em;
 }
 
+/*
 #donate-container-2 {
   padding: 0 !important;
   background-color: #568fd1;
@@ -2276,26 +2273,31 @@ table, th, td {
   color: #ffffff;
   font-weight: 300;
 }
-
-.donate-text {
-  line-height: 1.75em;
-  margin-bottom: 1em;
-  text-align: center;
-}
+*/
 
 .donate-text h2 {
   color: #fafafa;
-  font-size: 120%;
+  font-size: 150% !important;
   font-weight: 650;
+  padding-top: 150px !important;
 }
 
-.donate-text p {
-  color: #ffffff;
-  font-size: 100%;
-  font-weight: 450;
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .donate-div {
+    padding: 0px !important;
+  }
+} 
 
-.donate-column {
-  height: 650px !important;
-  padding: 0px;
-}
+/* Medium devices (768px and down) */
+@media only screen and (max-width: 768px) {
+  .donate-text h2 {
+    padding-left: 30px;
+  }
+} 
+
+@media only screen and (min-width: 769px) {
+  .donate-text h2 {
+    padding-top: 250px !important;
+  }
+} 
