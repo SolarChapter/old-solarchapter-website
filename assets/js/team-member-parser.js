@@ -14,7 +14,6 @@ while (!teamMemberCurrent) {
 }
 
 var jsonFile = "assets/js/teams/" + teams[index] + "-team.json"
-console.log(jsonFile);
 
 $.getJSON(jsonFile, function(json) {
     teamMemberCurrent.innerHTML = displayContents(json.teamCurrent)
