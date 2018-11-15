@@ -5,15 +5,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/sass/main.css" />
+        <link rel="stylesheet" href="assets/sass/main.css?v=1" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
-        <!-- For carousel -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
         <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons.ico/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons.ico/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons.ico/apple-icon-72x72.png">
@@ -32,7 +26,7 @@
         <meta name="msapplication-TileImage" content="assets/favicons.ico/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
     </head>
-    <body class="right-sidebar">
+    <body class="no-sidebar">
         <div id="page-wrapper">
 
             <!-- Header -->
@@ -66,24 +60,35 @@
 
             <!-- Main -->
             <article id="main">
+
+                <header class="special container">
+                    <span class="icon fa-users"></span>
+                    <h2><strong>Our Mission</strong></h2>
+                    <p>To help underprivileged people living in rural environment, especially developing countries, through sustainable methods.</p>
+                </header>
+
                 <!-- One -->
-                <section class="wrapper style4 container" id="donate-container">
-                    <div class="row donate-top-section">
-                        <div class="col-sm-6 donate-div">
-                            <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/solar-chapter" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
-                        </div>
-                        <div class="col-sm-6 donate-div donate-text">
-                            <h2>All of your donation goes directly towards our projects to combat social inequalities.</h2>
-                        </div>
+                <section class="wrapper style4 container">
+                    <!-- Content -->
+                    <div class="content">
+                        <section>
+                            <a class="image featured"><img src="images/teams/purdue_team/purdue-team.jpg" alt="" /></a>
+                            <header>
+                                <h3>Meet Our Team</h3>
+                            </header>
+                            <p>Solar Chapter Purdue is found in April 2018. Believing in the initial work of Solar Chapter, we strive to extend Solar Chapter hand to help more people around the world. With students from various ethnicity, nationality, and background, we believe we could help make bigger impact to those in needs along with other branches of Solar Chapter. We might not be able to change the world, but we might be able to change someone's world.</p>
+                            <p>- Solar Chapter Purdue</p>
+                        </section>
                     </div>
+
                 </section>
-                <!-- Two 
-                <section class="wrapper style4 container" id="donate-container-2">
-                    <div class="row donate-bot-section">
-                        <h2>To learn more about how to help,</h2>
-                        <p>Contact us at solarchapter@gmail.com</p>
-                    </div>
-                </section>-->
+
+                <!-- Two -->
+                <section class="wrapper style1 container special">
+                    <div id="purdue-team-member-current" class="row team-member-section"> </div>
+                    <div id="pastMemberExists"> </div>
+                    <div id="purdue-team-member-past" class="row team-member-section"> </div>  
+                </section>
             </article>
 
             <!-- Footer -->
@@ -113,6 +118,6 @@
         <script src="assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
-
+        <script src="assets/js/team-member-parser.js"></script>
     </body>
 </html>
