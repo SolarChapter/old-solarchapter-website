@@ -6,38 +6,62 @@
         {
             "position": "President",
             "name": "Madeleine Setiono",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/michigan_team/madeleine-setiono.jpg"
+            "linkedin": "https://www.linkedin.com/in/madeleine-setiono-89628310a/",
+            "imagesource": "images/teams/michigan_team/Madeleine_Setiono.jpg"
         },
         {
-            "position": "Vice President & Public Relations Chair",
-            "name": "Rachel Clementine",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/michigan_team/rachel-clementine.jpg"
-        },
-        {
-            "position": "Finance Chair",
-            "name": "Keshia Setiawan",
-            "linkedin": "javascript:", 
-            "imagesource": "images/teams/michigan_team/keshia-setiawan.jpg"
-        },
-        {
-            "position": "Publicity Chair",
-            "name": "Bethari Kamarga",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/michigan_team/bethari-kamarga.jpg"
-        },
-        {
-            "position": "Funding and Sponsorship Chair",
+            "position": "Vice President",
             "name": "Winny Soerianto",
-            "linkedin": "javascript:",
-            "imagesource": "images/teams/michigan_team/winny-soerianto.jpg"
+            "linkedin": "https://www.linkedin.com/in/winny-soerianto-962086136/",
+            "imagesource": "images/teams/michigan_team/Winny_Soerianto.jpg"
         },
         {
-            "position": "Tech Chair",
-            "name": "Natasha Sutantyo",
-            "linkedin": "javascript:", 
-            "imagesource": "images/teams/michigan_team/natasha-sutantyo.jpg"
+            "position": "Coordinator",
+            "name": "Alvin Gunawan",
+            "linkedin": "https://www.linkedin.com/in/alvin-gunawan-aab457153/", 
+            "imagesource": "images/teams/michigan_team/Alvin_Gunawan.png"
+        },
+        {
+            "position": "Coordinator",
+            "name": "Nabilla Gunawan",
+            "linkedin": "https://www.linkedin.com/in/nabilla-gunawan-836605b5/", 
+            "imagesource": "images/teams/michigan_team/Nabilla_Gunawan.png"
+        },
+        {
+            "position": "Member",
+            "name": "Rachel Clementine",
+            "linkedin": "https://www.linkedin.com/in/rachel-clementine/",
+            "imagesource": "images/teams/michigan_team/Rachel_Clementine.jpg"
+        },
+        {
+            "position": "Member",
+            "name": "Angel Lukito",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/michigan_team/Angel_Lukito.png"
+        },
+        {
+            "position": "Member",
+            "name": "Audrey Yuristian",
+            "linkedin": "https://www.linkedin.com/in/audrey-yuristian-735509171/",
+            "imagesource": "images/teams/michigan_team/Audrey_Yuristian.png"
+        },
+        {
+            "position": "Member",
+            "name": "Shawny Yuristian",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/michigan_team/Shawny_Yuristian.png"
+        },
+        {
+            "position": "Member",
+            "name": "Helena Sofiananda",
+            "linkedin": "https://www.linkedin.com/in/helena-sofiananda-96871a147/",
+            "imagesource": "images/teams/michigan_team/Helena_Samara.png"
+        },
+        {
+            "position": "Member",
+            "name": "Celine Sutedja",
+            "linkedin": "javascript:",
+            "imagesource": "images/teams/michigan_team/Celine_Sutedja.png"
         }
     ]
 }
