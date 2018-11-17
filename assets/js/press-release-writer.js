@@ -14,13 +14,13 @@ $.getJSON('/assets/js/press-release-contents.json', function(json) {
 
 
     var contentWithIDList = json.pressReleaseContents
-
     for (i in contentWithIDList) {
         if (contentWithIDList[i].articleID == articleID) {
-           var contentToWrite = contentWithIDList[i]
+           var articleContentRaw = contentWithIDList[i].contents
+
         }
     }
-    var articleContentRaw = contentWithIDList[0].contents
+    
     var articleContentSplit = articleContentRaw.split("\n")
 
     for (i in articleContentSplit) {
