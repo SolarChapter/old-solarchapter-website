@@ -1,0 +1,37 @@
+{
+    "teamPast": [
+        
+    ],
+    "teamCurrent":[
+        {
+            "position": "",
+            "name": "Mustika Wijaya",
+            "linkedin": "javascript:",
+            "imagesource": "images/uiuc_team/madeleine-setiono.jpg"
+        },
+        {
+            "position": "",
+            "name": "Edwint Widjaya",
+            "linkedin": "javascript:",
+            "imagesource": "images/uiuc_team/rachel-clementine.jpg"
+        },
+        {
+            "position": "r",
+            "name": "Peter Siborutorop",
+            "linkedin": "javascript:", 
+            "imagesource": "images/uiuc_team/keshia-setiawan.jpg"
+        },
+        {
+            "position": "Publicity Chair",
+            "name": "Madeleine Setiono",
+            "linkedin": "javascript:",
+            "imagesource": "images/michigan_team/madeleine-setiono.jpg"
+        },
+        {
+            "position": "Funding and Sponsorship Chair",
+            "name": "Winny Soerianto",
+            "linkedin": "javascript:",
+            "imagesource": "images/purdue_tem/winny-soerianto.jpg"
+        }
+    ]
+}

@@ -2243,16 +2243,14 @@ table, th, td {
   height: 100%;
 }
 
+/* Donate page styling */
 #donate-container {
   padding: 0 !important;
   display: inline-block;
   display: flex; 
   flex-wrap: wrap-reverse; 
-  background: url(/images/donate/DSC01409.jpg) no-repeat local center bottom;
-}
-
-#donate-container img {
-  max-width: 100%;
+  background: url(/images/donate/donate-1.jpg) no-repeat local left center;
+  background-size: cover;
 }
 
 .donate-top-section { 
@@ -2261,6 +2259,7 @@ table, th, td {
   padding: 4em;
 }
 
+/*
 #donate-container-2 {
   padding: 0 !important;
   background-color: #568fd1;
@@ -2274,19 +2273,32 @@ table, th, td {
   color: #ffffff;
   font-weight: 300;
 }
+*/
 
-.donate-text {
-  line-height: 1.75em;
-  margin-bottom: 1em;
-  text-align: center;
+.donate-text h2 {
+  color: #fafafa;
+  font-size: 150% !important;
+  font-weight: 650;
+  padding-top: 150px !important;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .donate-div {
+    padding: 0px !important;
+  }
+} 
+
+/* Medium devices (768px and down) */
+@media only screen and (max-width: 768px) {
   .donate-text h2 {
-    color: #fafafa;
-    font-size: 120%;
-    font-weight: 650;
+    padding-left: 30px;
   }
-  .donate-text p {
-    color: #ffffff;
-    font-size: 100%;
-    font-weight: 450;
+} 
+
+@media only screen and (min-width: 769px) {
+  .donate-text h2 {
+    padding-top: 250px !important;
   }
+} 
+
