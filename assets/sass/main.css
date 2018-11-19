@@ -2093,7 +2093,9 @@ body.index #main {
 }
 
 .team-member {
-  max-width: 200px; }
+  max-height: 266px;
+  max-width: 200px; 
+  }
 
 .width-100 {
   width: 100%; }
