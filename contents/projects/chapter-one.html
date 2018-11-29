@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/sass/main.css" />
+        <link rel="stylesheet" href="../../assets/sass/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
@@ -175,7 +175,7 @@
                                     <header>
                                         <h2>Story from Umutnana</h2>
                                     </header>
-                                    <a href="#" class="image featured"><img src="images/buckets-outside-classrooms.png" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/chapter-one/buckets-outside-classrooms.png" alt="" /></a>
                                     <header>
                                         <h3>Buckets Outside Classrooms</h3>
                                     </header>
@@ -186,24 +186,8 @@
                                     </footer>
                                 </section>
 
-                                <!-- <section>
-<header>
-<h2>Our Journey</h2>
-</header>
-<a href="#" class="image featured"><img src="images/buckets-outside-classrooms.png" alt="" /></a>
-<header>
-<h3>Buckets Outside Classrooms</h3>
-</header>
-<footer>
-<ul class="buttons">
-<li><a href="https://blog.solarchapter.com/post/168707447390/chapter-1-story-buckets-outside-classrooms" class="button small">Learn More</a></li>
-</ul>
-</footer>
-</section> -->
                                 <section>
-                                    <header>
-                                        <h2>Results</h2>
-                                    </header>
+                                    <header><h2>Results</h2></header>
                                     <a class="image featured"><img src="images/chapter-one/results/1.png" alt="" /></a>
                                     <a class="image featured"><img src="images/chapter-one/results/2.png" alt="" /></a>
                                     <a class="image featured"><img src="images/chapter-one/results/3.png" alt="" /></a>
@@ -221,22 +205,17 @@
             </article>
 
             <!-- Footer -->
-            <footer id="footer">
-                <ul class="icons">
-                    <li><a href="https://www.facebook.com/solarchapter/" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/solarchapter/" class="icon circle fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCqj1kNOurGHy6yCgGqtC2fQ" class="icon circle fa-youtube"><span class="label">Youtube</span></a></li>
-                    <li><a href="mailto:solarchapterofficial@gmail.com" class="icon circle fa-envelope"><span class="label">Email</span></a></li>
-                </ul>
-                <ul class="copyright">
-                    <li>Copyright &copy; 2018 Solar Chapter</li>
-                </ul>
-            </footer>
+            <div id="footer-container"></div>
 
         </div>
 
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#footer-container').load('components/footer.html');
+            });
+        </script>
         <script src="assets/js/jquery.dropotron.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/jquery.scrollgress.min.js"></script>
