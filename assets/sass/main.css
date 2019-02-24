@@ -2302,3 +2302,10 @@ table, th, td {
   }
 } 
 
+.image.projects{
+  display: block;
+  margin: 0 0 2em 0; }
+  .image.featured img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;}
