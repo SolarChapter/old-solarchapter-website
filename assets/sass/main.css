@@ -1049,7 +1049,7 @@ header.major {
   padding-bottom: 2em; }
 
 header.special {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   padding-top: 7em;
   position: relative;
   text-align: center; }
@@ -1070,7 +1070,7 @@ header.special {
     margin-bottom: 0; }
   header.special h2 + p {
     margin-bottom: 0;
-    padding-top: 1.5em; }
+    padding-top: 1em; }
   header.special .icon {
     cursor: default;
     height: 7em;
@@ -1746,7 +1746,7 @@ body.index #main {
     .wrapper.style2 {
       background-size: 15em; }
     .wrapper.style4 {
-      padding: 2.5em; }
+      padding: 2em; }
   /* Banner */
   #banner {
     background-size: 15em, 15em, auto, cover; }
