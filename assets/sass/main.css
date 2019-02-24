@@ -1049,7 +1049,7 @@ header.major {
   padding-bottom: 2em; }
 
 header.special {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   padding-top: 7em;
   position: relative;
   text-align: center; }
@@ -1165,6 +1165,13 @@ input[type="email"] {
     .image.featured img {
       display: block;
       width: 100%; }
+  .image.single {
+    display: block;
+    margin: 0 0 2em 0; }
+    .image.single img {
+      height: 50%;
+      width: 50%; }
+
 
 /* Icon */
 .icon {
@@ -1618,7 +1625,7 @@ input[type="reset"],
   background-position: top left, top right, bottom left, bottom right;
   background-repeat: no-repeat;
   background-size: 25em;
-  padding: 7em 0; }
+  padding: 4em 0; }
   #main > :last-child {
     margin-bottom: 0; }
   #main .sidebar section {
@@ -1675,8 +1682,7 @@ body.index #main {
     font-size: 14pt; }
   /* Section/Article */
   header.special {
-    padding-top: 5.5em;
-    margin-bottom: 4em; } }
+    padding-top: 4em;} }
 
 /* Normal */
 @media screen and (max-width: 1280px) {
