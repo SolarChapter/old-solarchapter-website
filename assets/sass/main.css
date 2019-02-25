@@ -1165,13 +1165,16 @@ input[type="email"] {
     .image.featured img {
       display: block;
       width: 100%; }
-  .image.single {
-    display: block;
-    margin: 0 0 2em 0; }
-    .image.single img {
-      height: 50%;
-      width: 50%; }
 
+.image.single {
+  margin-block-start: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center}
+  .image.single img {
+    width: 50%;
+    height: 50%; 
+  }
 
 /* Icon */
 .icon {
