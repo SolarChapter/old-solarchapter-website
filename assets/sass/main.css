@@ -2284,11 +2284,18 @@ table, th, td {
 }
 */
 
-.donate-text h2 {
+.donate-text header {
   color: #fafafa;
   font-size: 150% !important;
   font-weight: 650;
-  padding-top: 150px !important;
+  padding-bottom: 20px;
+  text-align: justify;
+  padding-top: 175px !important;
+}
+
+.donate-text p {
+  color: #fafafa;
+  font-weight: 650;
 }
 
 /* Extra small devices (phones, 600px and down) */
