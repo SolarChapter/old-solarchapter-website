@@ -2440,7 +2440,7 @@ body.wheel.of.challenges {
     animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
       .heading-primary-wheel--main {
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: 1rem;
         font-family: 5rem; } }
   .heading-primary-wheel--sub {
