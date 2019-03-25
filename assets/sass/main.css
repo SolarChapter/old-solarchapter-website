@@ -1,3 +1,6 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 /*
@@ -2325,3 +2328,535 @@ table, th, td {
     display: block;
     max-width: 100%;
     max-height: 100%;}
+
+/* Purdue Website Style */
+/*
+colors:
+primary-yellow: #EDFA62
+primary-yellow-dark: #FEF740
+primary-yellow-light:#FFFFE0
+
+*/
+/*
+0 - 600px:             Phone
+600 - 900px:            Tablet portrait
+900 - 1200px:           Tablet Landscape
+1200 - 1800px:          normal styles appear
+1800px +:              Big Desktop
+$breakpoint arguement choices:
+- Phone
+- tab-port
+- tab-land
+- big-desktop
+  1em = 16px
+
+  Order: Base + Typographu > general layout + grid > page layout > components
+*/
+/*grid */
+/*Keyframes section*/
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  70% {
+    transform: translateX(10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  70% {
+    transform: translateX(-10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes logoFadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+/* *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; } */
+
+html.wheel.of.challenges {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  /*  @include respond(Phone) {
+    font-size: 30%; //1 rem = 8px, 8/16 = 50%
+  }*/ }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body.wheel.of.challenges {
+  box-sizing: border-box;
+  padding: 3rem;font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  color: #777; }
+  @media (max-width: 56.25em) {
+    body.wheel.of.challenges {
+      padding: 0; } }
+
+
+.heading-primary-wheel {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  .heading-primary-wheel--main {
+    display: block;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 2.5rem;
+    animation-name: moveInLeft;
+    text-align: center;
+    animation-duration: 3s;
+    animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary-wheel--main {
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        font-family: 5rem; } }
+  .heading-primary-wheel--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.8rem;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary-wheel--sub {
+        letter-spacing: 0.5rem; } }
+
+.heading-secondary-wheel {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #D79922, #D79922);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem; }
+  @media (max-width: 56.25em) {
+    .heading-secondary-wheel {
+      font-size: 3rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary-wheel {
+      font-size: 2.5rem; 
+      margin:1em;} }
+
+.heading-tertiary-wheel {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph-wheel {
+  font-size: 1.8rem; }
+  .paragraph-wheel:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-huge {
+  margin-bottom: 10rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.btn:link, .btn:visited {
+  /*:link is a pseudoclass to style elements under a special conditions*/
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  /* adds shadow for button in y direction along with blur*/ }
+  .btn:hover::after {
+    /*After pseudo element only after we hover over the button*/
+    transform: scaleX(1.4) scaleY(1.6);
+    /*increases the element*/
+    opacity: 0; }
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: #fff;
+  font-size: 2rem;
+  color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  font-size: 2.2rem;
+  color: #D79922;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #D79922;
+  padding: 0.3rem;
+  transition: all 0.2s; }
+
+.btn-text:hover {
+  background-color: #D79922;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.composition-wheel {
+  position: relative; }
+  .composition-wheel__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem; }
+    @media (max-width: 56.25em) {
+      .composition-wheel__photo {
+        float: left;
+        position: relative;
+        width: 33.33333333%;
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
+    .composition-wheel__photo--p1 {
+      left: 0;
+      top: -2rem; }
+      @media (max-width: 56.25em) {
+        .composition-wheel__photo--p1 {
+          top: 0;
+          transform: scale(1.2); } }
+    .composition-wheel__photo--p2 {
+      right: 0;
+      top: 2rem; }
+      @media (max-width: 56.25em) {
+        .composition-wheel__photo--p2 {
+          top: -1rem;
+          transform: scale(1.3);
+          z-index: 100; } }
+    .composition-wheel__photo--p3 {
+      left: 20%;
+      top: 10rem; }
+      @media (max-width: 56.25em) {
+        .composition-wheel__photo--p3 {
+          top: 1rem;
+          left: 0;
+          transform: scale(1.1); } }
+    .composition-wheel__photo:hover {
+      outline: 1.5rem solid #D79922;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .composition-wheel:hover .composition-wheel__photo:not(:hover) {
+    transform: scale(0.95); }
+
+.feature-box-wheel {
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s; }
+  @media (max-width: 56.25em) {
+    .feature-box-wheel {
+      padding: 2rem; } }
+  .feature-box-wheel__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #D79922, #D79922);
+    -webkit-background-clip: text;
+    color: transparent; }
+    @media (max-width: 56.25em) {
+      .feature-box-wheel__icon {
+        margin-bottom: 0; } }
+  .feature-box-wheel:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
+.card-wheel {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 90rem; }
+  .card-wheel__side {
+    height: 80rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card-wheel__side--front {
+      background-color: #fff; }
+    .card-wheel__side--back {
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.5), rgba(255, 119, 48, 0.5)); }
+  .card-wheel:hover .card-wheel__side--front {
+    transform: rotateY(-180deg); }
+  .card-wheel:hover .card-wheel__side--back {
+    transform: rotateY(0); }
+  .card-wheel__picture {
+    background-size: cover;
+    height: 35rem;
+    vertical-align: middle;
+    background-blend-mode: screen;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 224, 0.7), rgba(215, 153, 34, 0.75)), url("../../images/wheel_of_challenges/Hall_of_Music.JPG"); }
+  .card-wheel__picture h4 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #46344E;
+    position: relative;
+    font: inherit;
+    top: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  @media (max-width: 36.5em) {
+    .card-wheel__picture h4 {
+      top: 30%;} }
+
+    .card-wheel__details {
+      margin-top: 2em; } 
+    .card-wheel__details ul {
+      list-style: none;
+      vertical-align: middle;
+      width: 80%;
+      margin: 0 auto; }
+      .card-wheel__details ul li {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 0.1rem; }
+        @media (max-width: 36.5em) {
+          .card-wheel__details ul li {
+            font-size: 2rem;} }
+        .card-wheel__details ul li:not(:last-child) {
+          border-bottom: 0.01rem solid #eee; }
+  .card-wheel__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card-wheel__starter {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem; }
+  .card-wheel__interested {
+    font-size: 6rem;
+    font-weight: 100;
+    padding: 4rem;
+    text-transform: uppercase; }
+
+.row-wheel {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row-wheel:not(:last-child) {
+    margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .row.wheel:not(:last-child) {
+        margin-bottom: 6rem; } }
+  @media (max-width: 56.25em) {
+    .row-wheel {
+      max-width: 50rem; 
+      width:80%;} }
+  .row-wheel::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row-wheel [class^="col-"] {
+    float: left; }
+    .row-wheel [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+        .row-wheel [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row-wheel [class^="col-"] {
+        width: 100% !important; } }
+  .row-wheel .col-1-of-1 {
+    width: 100%; }
+  .row-wheel .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row-wheel .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row-wheel .col-1-of-4 {
+    width: calc((100% - 2 * 6rem) / 4); }
+  .row-wheel .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+
+header.wheel {
+  height: 95vh;
+  /*sets height to 95% of the visible viewport*/
+  background-image: linear-gradient(to right bottom, rgba(237, 250, 98, 0.7), rgba(215, 153, 34, 0.4)), url("../../images/wheel_of_challenges/hero.jpg");
+  /* insert image from drive and change linear gradient colors potentially*/
+  background-size: cover;
+  /* sets image to cover viewport*/
+  background-position: top;
+  /* sets position of image to top */
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  display: flex;
+  flex-direction:column;
+  /*clips image*/ }
+  @media (max-width: 37.5em) {
+    .header.wheel {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+  .header-wheel__logo-box {
+    position: absolute;
+    font-size: 3rem;
+    top: 4rem;
+    left: 4rem;
+    color: #fff;
+    /*Potentially change this color*/
+    animation-name: logoFadeIn;
+    animation-duration: 1s; }
+  .header-wheel__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+footer.wheel {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.8rem;
+  color: #f7f7f7; }
+  @media (max-width: 56.25em) {
+    .footer {
+      padding: 8rem 0; } }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .footer__logo-box {
+        margin-bottom: 6rem; } }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #D79922;
+    padding-top: 2rem;
+    display: inline-block; }
+    @media (max-width: 56.25em) {
+      .footer__navigation {
+        width: 100%;
+        text-align: center; } }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #f7f7f7;
+    background-color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .footer__link:active, .footer__link:hover {
+    color: #D79922; }
+  .footer__copyright {
+    border-top: 1px solid #D79922;
+    padding-top: 2rem;
+    width: 90%;
+    float: right; }
+    @media (max-width: 56.25em) {
+      .footer__copyright {
+        width: 100%;
+        float: none; } }
+
+.section-about-wheel {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -10vh; }
+  @media (max-width: 56.25em) {
+    .section-about-wheel {
+    padding: 20rem 0; } }
+
+.section-features-wheel {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(237, 250, 98, 0.4), rgba(215, 153, 34, 0.7)), url("../../images/wheel_of_challenges/Solar_Chapter_2.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -11.1rem; }
+  .section-features-wheel > * {
+    transform: skewY(7deg); }
+  @media (max-width: 56.25em) {
+    .section-features-wheel {
+      padding: 10rem 0; } }
+
+.section-event-wheel {
+  background-color: #f7f7f7;
+  padding: 25rem 0 15rem;
+  margin-top: -11.1rem; }
