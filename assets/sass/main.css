@@ -2433,6 +2433,8 @@ table, th, td {
   max-width: 80%;
   color: 	#fffafa;
 }
+
+
   /* add z-component if screen small, to make writings stack on top of the image*/
   .fundraisers-steps-text h1 {
     padding: 0.2em;
@@ -2464,6 +2466,7 @@ table, th, td {
     margin-bottom: 0.2em;
     text-align: left;
   } 
+
   .fundraisers-steps-text p {
     font-weight: 500;
     font-size: 1.2em;
@@ -2471,7 +2474,21 @@ table, th, td {
     max-width: 450px;
     text-align: left;
   } 
+  
+  @media screen and (max-width: 550px) {
+    .fundraisers-steps-text header {
+      font-size: 2em;
+    }
 
+    .fundraisers-steps-text p {
+      font-size: 0.9em;
+    }
+  } 
+
+
+
+
+  
 #fundraisers-footer {
   background: url(/images/fundraisers/test4.jpg) no-repeat local left center;
   background-size: cover;
