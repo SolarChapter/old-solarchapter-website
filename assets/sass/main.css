@@ -2485,6 +2485,16 @@ table, th, td {
     }
   } 
 
+  @media screen and (max-width: 370px) {
+    .fundraisers-steps-text header {
+      font-size: 1.6em;
+    }
+
+    .fundraisers-steps-text p {
+      font-size: 0.6em;
+    }
+  } 
+
 
 
 
