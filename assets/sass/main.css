@@ -2306,7 +2306,6 @@ table, th, td {
   }
 } 
 
-<<<<<<< HEAD
 /* Fundraisers page styling */
 #fundraisers-main {
   font-weight: 500;
@@ -2552,7 +2551,6 @@ table, th, td {
 .fundraising-option-btn {
   font-size: 25px;
 }
-=======
 .image.projects{
   display: block;
   margin: 0 0 2em 0; }
@@ -3092,4 +3090,3 @@ footer.wheel {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem;
   margin-top: -11.1rem; }
->>>>>>> master
