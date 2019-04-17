@@ -2296,6 +2296,10 @@ table, th, td {
   padding-top: 150px !important;
 }
 
+.donate-text{
+  color: white;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .donate-div {
