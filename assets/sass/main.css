@@ -2273,6 +2273,18 @@ table, th, td {
   padding: 4em;
 }
 
+#progress-bar-section {
+  background-color: white;
+
+}
+#progress-bar-section progress{
+  width: 100%
+}
+
+.gathered-amount {
+  font-size: 1.5em;
+
+}
 /*
 #donate-container-2 {
   padding: 0 !important;
