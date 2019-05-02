@@ -2271,7 +2271,20 @@ table, th, td {
   display: flex; 
   flex-wrap: wrap-reverse; 
   padding: 4em;
+  margin:auto;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+  .donate-top-section { 
+    display: flex; 
+    flex-wrap: wrap-reverse; 
+    padding: 2em 1em 2em 1em;
+    margin:auto;
+  }
+  .donate-text p {
+    text-align: left;
+  }
+} 
 
 #progress-bar-section {
   background-color: white;
@@ -2310,12 +2323,14 @@ table, th, td {
 
 .donate-text{
   color: white;
+  font-weight: 600;
+  margin:auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .donate-div {
-    padding: 0px !important;
+    margin: 1em 0 0 1em;
   }
 } 
 
