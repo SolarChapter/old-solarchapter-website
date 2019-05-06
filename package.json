@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/SolarChapter/solar-chapter#readme",
   "dependencies": {
+    "event-stream": "^4.0.1",
     "nodemon": "^1.18.5",
     "tar": "^4.4.8"
   }
