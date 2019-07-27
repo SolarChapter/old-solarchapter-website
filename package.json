@@ -36,6 +36,7 @@
   "dependencies": {
     "event-stream": "^4.0.1",
     "nodemon": "^1.18.5",
-    "tar": "^4.4.8"
+    "tar": "^4.4.8",
+    "webpack-cli": "^3.3.6"
   }
 }

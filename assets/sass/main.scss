@@ -1619,7 +1619,7 @@ body.index #main {
 }
 
 #myCarousel {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     .carousel-inner{
         .item{
             img{
@@ -1627,7 +1627,7 @@ body.index #main {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                height: 50vw;
+                height: 70vw;
                 max-height: 500px;
                 width: auto
             }
