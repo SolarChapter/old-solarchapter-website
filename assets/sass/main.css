@@ -159,7 +159,7 @@ body {
   margin-bottom: 4rem; }
 
 .btn:link, .btn:visited {
-  /*:link is a pseudoclass to style elements under a special conditions*/
+  /*:link is a pseudoclass to style elements under special conditions*/
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1867,6 +1867,15 @@ input[type="reset"],
     font-size: 0.7em;
     min-width: 14em;
     padding: 0.5em 0; }
+  input[type="button"].only-words,
+  input[type="submit"].only-words,
+  input[type="reset"].only-words,
+  .button.only-words {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer; }
 
 /* Wrapper */
 .wrapper {
@@ -2006,11 +2015,22 @@ input[type="reset"],
       #header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
         border: solid 1px; }
 
-/*Landing Image */
+/*landing container */
 .landing {
-  position: relative;
-  width: 100%;
-  height: 100%; }
+  /*Landing Image with button */ }
+  .landing.pic {
+    position: relative;
+    width: 100%;
+    height: 85%; }
+
+.the-button {
+  position: fixed;
+  z-index: 999;
+  bottom: 2%;
+  right: 10%; }
+  .the-button .text {
+    color: #ffffff;
+    bottom: 12%; }
 
 /* Dropotron */
 .dropotron {

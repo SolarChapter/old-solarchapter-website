@@ -577,6 +577,14 @@ input[type="reset"],
         min-width: 14em;
         padding: 0.5em 0;
     }
+
+    &.only-words {
+        background:none;
+        border:none;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+    }
 }
 
 /* Wrapper */
@@ -747,14 +755,34 @@ input[type="reset"],
         }
     }
 }
-/*Landing Image */
 
+/*landing container */
 .landing {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    /*Landing Image with button */
+
+    &.pic {
+        position: relative;
+        width: 100%;
+        height: 85%;
+    }
+
+
 }
 
+.the-button {
+    position:fixed;
+    z-index: 999;
+    bottom: 2%;
+    right: 10%;
+
+    .text {
+        color:#ffffff;
+        bottom:12%;
+    }
+
+    .brand-redirect-img {
+    }
+}
 /* Dropotron */
 
 .dropotron {
