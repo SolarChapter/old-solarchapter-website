@@ -223,6 +223,7 @@ header {
 }
 
 footer {
+
     > :last-child {
         margin-bottom: 0;
     }
@@ -745,6 +746,13 @@ input[type="reset"],
             }
         }
     }
+}
+/*Landing Image */
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 /* Dropotron */
@@ -1619,6 +1627,7 @@ body.index #main {
 }
 
 #myCarousel {
+    position: relative;
     margin-bottom: 0px;
     .carousel-inner{
         .item{
