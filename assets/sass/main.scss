@@ -578,13 +578,23 @@ input[type="reset"],
         padding: 0.5em 0;
     }
 
-    &.only-words {
-        background:none;
-        border:none;
-        margin:0;
-        padding:0;
-        cursor: pointer;
+    &.threads {
+        position: fixed;
+        background: _palette(one, bg);
+        border-color: _palette(one, bg);
+        color: _palette(one, fg) !important;
+        bottom: 10%;
+        right: 7%;
+        z-index: 999;
+        .text {
+            color: #ffffff;
+        }
+        &:hover {
+            background: lighten(_palette(one, bg), 5) !important;
+            border-color: lighten(_palette(one, bg), 5) !important;
+        }
     }
+
 }
 
 /* Wrapper */
@@ -632,6 +642,16 @@ input[type="reset"],
         background: _palette(two, bg);
         color: _palette(two, fg);
         padding: 4em;
+    }
+
+    &.style5 {
+        &.right-pic {
+            right: 0%;
+        }
+        &.left-pic {
+            left: 05;
+        }
+
     }
 }
 
@@ -759,29 +779,23 @@ input[type="reset"],
 /*landing container */
 .landing {
     /*Landing Image with button */
-
     &.pic {
         position: relative;
         width: 100%;
         height: 85%;
     }
-
-
 }
 
 .the-button {
     position:fixed;
     z-index: 999;
-    bottom: 2%;
+    bottom: 10%;
     right: 10%;
+    background: _palette(one, bg);
+    border-color: _palette(one, bg);
+    color: _palette(one, fg) !important;
 
-    .text {
-        color:#ffffff;
-        bottom:12%;
-    }
 
-    .brand-redirect-img {
-    }
 }
 /* Dropotron */
 

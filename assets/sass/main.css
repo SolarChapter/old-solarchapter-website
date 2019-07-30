@@ -1867,15 +1867,28 @@ input[type="reset"],
     font-size: 0.7em;
     min-width: 14em;
     padding: 0.5em 0; }
-  input[type="button"].only-words,
-  input[type="submit"].only-words,
-  input[type="reset"].only-words,
-  .button.only-words {
-    background: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    cursor: pointer; }
+  input[type="button"].threads,
+  input[type="submit"].threads,
+  input[type="reset"].threads,
+  .button.threads {
+    position: fixed;
+    background: #83d3c9;
+    border-color: #83d3c9;
+    color: #fff !important;
+    bottom: 10%;
+    right: 7%;
+    z-index: 999; }
+    input[type="button"].threads .text,
+    input[type="submit"].threads .text,
+    input[type="reset"].threads .text,
+    .button.threads .text {
+      color: #ffffff; }
+    input[type="button"].threads:hover,
+    input[type="submit"].threads:hover,
+    input[type="reset"].threads:hover,
+    .button.threads:hover {
+      background: #96dad1 !important;
+      border-color: #96dad1 !important; }
 
 /* Wrapper */
 .wrapper {
@@ -1906,6 +1919,10 @@ input[type="reset"],
     background: #fff;
     color: inherit;
     padding: 4em; }
+  .wrapper.style5.right-pic {
+    right: 0%; }
+  .wrapper.style5.left-pic {
+    left: 05; }
 
 /* Header */
 @-moz-keyframes reveal-header {
@@ -2026,11 +2043,11 @@ input[type="reset"],
 .the-button {
   position: fixed;
   z-index: 999;
-  bottom: 2%;
-  right: 10%; }
-  .the-button .text {
-    color: #ffffff;
-    bottom: 12%; }
+  bottom: 10%;
+  right: 10%;
+  background: #83d3c9;
+  border-color: #83d3c9;
+  color: #fff !important; }
 
 /* Dropotron */
 .dropotron {
