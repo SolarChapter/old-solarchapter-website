@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce46b219-95b0-4680-9088-0cb1b47c26b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makna-landing-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/makna-landing-page.html" afterDir="false" />
@@ -23,20 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="146" column="53" lean-forward="true" selection-start-line="146" selection-start-column="53" selection-end-line="146" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="807" column="21" lean-forward="true" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+        <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="820" column="9" lean-forward="true" selection-start-line="820" selection-start-column="9" selection-end-line="820" selection-end-column="9" />
+            <state relative-caret-position="109">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -45,8 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background-color</find>
-      <find>wrapper style4 container</find>
       <find>wrapper</find>
       <find>wrapper.style4</find>
       <find>.wrapper.style4</find>
@@ -69,12 +75,14 @@
       <find>right-side</find>
       <find>button</find>
       <find>landing</find>
-      <find>palette</find>
       <find>the-bu</find>
       <find>.button</find>
       <find>the</find>
       <find>img</find>
       <find>left-</find>
+      <find>palette</find>
+      <find>#</find>
+      <find>relat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,8 +95,8 @@
         <option value="$PROJECT_DIR$/assets/sass/main.css" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/assets/sass/components/_button.scss" />
-        <option value="$PROJECT_DIR$/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/makna-landing-page.html" />
+        <option value="$PROJECT_DIR$/assets/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -111,7 +119,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="574" />
+    <option name="width" value="782" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectView">
@@ -209,15 +217,15 @@
       <workItem from="1564447283824" duration="3901000" />
       <workItem from="1565136727198" duration="3677000" />
       <workItem from="1565221055133" duration="1420000" />
-      <workItem from="1565223624480" duration="2300000" />
+      <workItem from="1565223624480" duration="2991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29911000" />
+    <option name="totallyTimeSpent" value="30602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="574" height="809" extended-state="0" />
+    <frame x="0" y="23" width="782" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18571429" />
@@ -484,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -501,17 +502,24 @@
     <entry file="file://$PROJECT_DIR$/images/makna-landing/land-pic.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="820" column="9" lean-forward="true" selection-start-line="820" selection-start-column="9" selection-end-line="820" selection-end-column="9" />
+        <state relative-caret-position="109">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="146" column="53" lean-forward="true" selection-start-line="146" selection-start-column="53" selection-end-line="146" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="807" column="21" lean-forward="true" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="21" />
         </state>
       </provider>
     </entry>
