@@ -643,16 +643,6 @@ input[type="reset"],
         color: _palette(two, fg);
         padding: 4em;
     }
-
-    &.style5 {
-        &.right-pic {
-            right: 0%;
-        }
-        &.left-pic {
-            left: 05;
-        }
-
-    }
 }
 
 /* Header */
@@ -786,6 +776,55 @@ input[type="reset"],
     }
 }
 
+.edgy {
+    position: relative;
+    height: 40%;
+    width:100%;
+    display:flex;
+    top:40px;
+    color:#ffb900;
+    //.right-text {
+    //    position:relative;
+    //    float:right;
+    //}
+    //
+    //&.left-pic {
+    //    float:left;
+    //    height:40%;
+    //    width:60%;
+    //}
+}
+.left-text {
+    top:40px;
+    flex:50%;
+    margin-left:2%;
+    margin-top:2%;
+    margin-right:2%;
+    margin-bottom:2%;
+}
+.right-pic {
+    img {
+        flex:50%;
+        position:relative;
+        height:350px;
+        width:500px;
+    }
+}
+.right-text {
+    flex:50%;
+    margin-left:2%;
+    margin-top:2%;
+    margin-right:2%;
+    margin-bottom:2%;
+}
+.left-pic {
+    img {
+        flex:50%;
+        position:relative;
+        height:350px;
+        width:500px;
+    }
+}
 .the-button {
     position:fixed;
     z-index: 999;
