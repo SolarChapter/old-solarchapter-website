@@ -765,6 +765,8 @@ input[type="reset"],
     }
 }
 
+
+
 /*landing container */
 .landing {
     /*Landing Image with button */
@@ -772,6 +774,12 @@ input[type="reset"],
         position: relative;
         width: 100%;
         height: 85%;
+    }
+    &.logo {
+        position: absolute;
+        width: 30%;
+        margin-left: 35%;
+        z-index:2;
     }
 }
 
