@@ -1886,8 +1886,8 @@ input[type="reset"],
     input[type="submit"].threads:hover,
     input[type="reset"].threads:hover,
     .button.threads:hover {
-      background: #96dad1 !important;
-      border-color: #96dad1 !important; }
+      background: #fbae9d !important;
+      border-color: #fbae9d !important; }
 
 /* Wrapper */
 .wrapper {

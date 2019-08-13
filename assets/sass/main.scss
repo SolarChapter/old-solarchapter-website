@@ -589,8 +589,8 @@ input[type="reset"],
             color: #ffffff;
         }
         &:hover {
-            background: lighten(_palette(one, bg), 5) !important;
-            border-color: lighten(_palette(one, bg), 5) !important;
+            background: lighten(#FA9A85, 5) !important;
+            border-color: lighten(#FA9A85, 5) !important;
         }
     }
 
