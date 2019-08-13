@@ -2053,7 +2053,8 @@ input[type="reset"],
   margin-left: 2%;
   margin-top: 4%;
   margin-right: 2%;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  text-align: center;}
 
 .relative-pic img {
   flex: 60%;
@@ -2185,7 +2186,14 @@ input[type="reset"],
         text-decoration: none; }
     #banner .inner footer {
       margin: 2em 0 0 0; }
-
+/*makna landing layout*/
+#makna-layout {
+  background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+  /*background-color: #ffffff;*/
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 25em;
+}
 /* Main */
 #main {
   background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
@@ -2203,6 +2211,7 @@ input[type="reset"],
       border-top: 0;
       padding-top: 0;
       margin-top: 0; }
+
 
 body.index #main {
   padding-top: 5em; }
