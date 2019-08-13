@@ -580,9 +580,8 @@ input[type="reset"],
 
     &.threads {
         position: fixed;
-        background: _palette(one, bg);
-        border-color: _palette(one, bg);
-        color: _palette(one, fg) !important;
+        background: #FA9A85;
+        color: #FA9A85;
         bottom: 10%;
         right: 7%;
         z-index: 999;

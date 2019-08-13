@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce46b219-95b0-4680-9088-0cb1b47c26b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makna-landing-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/makna-landing-page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="146" column="53" lean-forward="true" selection-start-line="146" selection-start-column="53" selection-end-line="146" selection-end-column="53" />
+            <state relative-caret-position="180">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="807" column="21" lean-forward="true" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="583" column="23" lean-forward="true" selection-start-line="583" selection-start-column="23" selection-end-line="583" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -53,7 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wrapper</find>
       <find>wrapper.style4</find>
       <find>.wrapper.style4</find>
       <find>wrapper style</find>
@@ -83,6 +82,7 @@
       <find>palette</find>
       <find>#</find>
       <find>relat</find>
+      <find>threads</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,8 +118,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
     <option name="y" value="23" />
-    <option name="width" value="782" />
+    <option name="width" value="1200" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectView">
@@ -127,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,8 +166,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,18 +218,20 @@
       <workItem from="1564447283824" duration="3901000" />
       <workItem from="1565136727198" duration="3677000" />
       <workItem from="1565221055133" duration="1420000" />
-      <workItem from="1565223624480" duration="2991000" />
+      <workItem from="1565223624480" duration="3606000" />
+      <workItem from="1565312630337" duration="366000" />
+      <workItem from="1565655487311" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30602000" />
+    <option name="totallyTimeSpent" value="31818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="782" height="809" extended-state="0" />
+    <frame x="34" y="23" width="1200" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18571429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18566494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,22 +507,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="146" column="53" lean-forward="true" selection-start-line="146" selection-start-column="53" selection-end-line="146" selection-end-column="53" />
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="807" column="21" lean-forward="true" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="583" column="23" lean-forward="true" selection-start-line="583" selection-start-column="23" selection-end-line="583" selection-end-column="23" />
         </state>
       </provider>
     </entry>

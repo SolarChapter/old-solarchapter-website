@@ -1872,9 +1872,8 @@ input[type="reset"],
   input[type="reset"].threads,
   .button.threads {
     position: fixed;
-    background: #83d3c9;
-    border-color: #83d3c9;
-    color: #fff !important;
+    background: #FA9A85;
+    color: #FA9A85;
     bottom: 10%;
     right: 7%;
     z-index: 999; }
