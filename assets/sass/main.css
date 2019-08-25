@@ -1915,9 +1915,9 @@ input[type="reset"].threads:hover,
   color: inherit; }
 .wrapper.style4 {
   background: #fff;
-  margin-bottom: 0em;
   color: inherit;
-  padding: 10em;
+  padding: 2em;
+  margin-bottom: 0em;
 }
 
 /* Header */
