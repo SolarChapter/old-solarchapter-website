@@ -25,20 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/ie/html5shiv.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="215">
+              <caret line="80" column="58" lean-forward="true" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -46,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="2193" column="31" lean-forward="true" selection-start-line="2193" selection-start-column="31" selection-end-line="2193" selection-end-column="31" />
+            <state relative-caret-position="251">
+              <caret line="1899" column="26" lean-forward="true" selection-start-line="1899" selection-start-column="26" selection-end-line="1899" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -55,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="784" lean-forward="true" selection-start-line="784" selection-end-line="784" />
+            <state relative-caret-position="201">
+              <caret line="1404" column="44" selection-start-line="1404" selection-start-column="44" selection-end-line="1404" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -74,17 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>css</find>
-      <find>carousel</find>
-      <find>carous</find>
-      <find>font</find>
-      <find>item</find>
-      <find>footer</find>
-      <find>carou</find>
-      <find>.right</find>
-      <find>page</find>
-      <find>only-words</find>
-      <find>only-wo</find>
       <find>right-side</find>
       <find>button</find>
       <find>the-bu</find>
@@ -93,17 +70,28 @@
       <find>img</find>
       <find>left-</find>
       <find>palette</find>
-      <find>#</find>
       <find>relat</find>
       <find>threads</find>
-      <find>landing</find>
       <find>z-in</find>
       <find>wrapper</find>
       <find>fff</find>
       <find>background-image</find>
       <find>relative-</find>
-      <find>main</find>
       <find>makna-</find>
+      <find>#</find>
+      <find>mak</find>
+      <find>#makna-layout</find>
+      <find>main</find>
+      <find>makna</find>
+      <find>landing</find>
+      <find>myCarousel</find>
+      <find>Carous</find>
+      <find>myCar</find>
+      <find>carousel-inn</find>
+      <find>box-sizing</find>
+      <find>slide</find>
+      <find>myCa</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,9 +127,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
     <option name="y" value="23" />
-    <option name="width" value="1234" />
+    <option name="width" value="1050" />
     <option name="height" value="809" />
   </component>
   <component name="ProjectView">
@@ -149,6 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +149,31 @@
             <path>
               <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolarChapter.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolarChapter.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolarChapter.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="main.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolarChapter.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolarChapter.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="makna-landing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SolarChapter.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -170,9 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,18 +240,19 @@
       <workItem from="1565221055133" duration="1420000" />
       <workItem from="1565223624480" duration="3606000" />
       <workItem from="1565312630337" duration="366000" />
-      <workItem from="1565655487311" duration="2618000" />
+      <workItem from="1565655487311" duration="2735000" />
+      <workItem from="1566748212546" duration="2991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34201000" />
+    <option name="totallyTimeSpent" value="37309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="23" width="1234" height="809" extended-state="0" />
+    <frame x="0" y="23" width="1050" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,7 +269,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41562065" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.052998606" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.43514645" />
@@ -497,15 +509,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/makna-landing/land-pic.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ie/html5shiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/libs/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,34 +529,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/images/makna-landing/maknaLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="784" lean-forward="true" selection-start-line="784" selection-end-line="784" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/ie/html5shiv.js">
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="201">
+          <caret line="1404" column="44" selection-start-line="1404" selection-start-column="44" selection-end-line="1404" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makna-landing-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="215">
+          <caret line="80" column="58" lean-forward="true" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="2193" column="31" lean-forward="true" selection-start-line="2193" selection-start-column="31" selection-end-line="2193" selection-end-column="31" />
+        <state relative-caret-position="251">
+          <caret line="1899" column="26" lean-forward="true" selection-start-line="1899" selection-start-column="26" selection-end-line="1899" selection-end-column="26" />
         </state>
       </provider>
     </entry>
